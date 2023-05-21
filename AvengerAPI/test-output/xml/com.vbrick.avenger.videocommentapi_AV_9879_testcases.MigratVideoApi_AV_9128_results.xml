@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="11"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="322.870">
+  <properties />
+  
+  
+            <testcase name="TC_03_PUT_MigratVideo_api_check_MigrateVideo_from_mediaadmin_to_accountadmin_Positive" time="33.112" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+                <testcase name="TC_05_PUT_MigratVideo_api_check_MigrateVideo_from_mediacontributor_to_accountadmin_Positive" time="32.518" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+                <testcase name="TC_08_PUT_MigratVideo_api_check_MigrateVideo_from_AccoutAdmin_to_mediaviewer_Negative" time="34.133" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+                <testcase name="TC_10_PUT_MigratVideo_api_check_MigrateVideo_from_AccoutAdmin_to_TimeWrongFormat_Negative" time="0.651" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+                <testcase name="TC_09_PUT_MigratVideo_api_check_MigrateVideo_from_AccoutAdmin_to_Null_Positive" time="25.214" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+                <testcase name="TC_01_PUT_MigratVideo_api_check_MigrateVideo_from_AccoutAdmin_to_mediaadminPositive" time="27.222" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+                <testcase name="TC_07_PUT_MigratVideo_api_check_MigrateVideo_from_AccoutAdmin_to_Eventadmin_Negative" time="36.355" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+                <testcase name="TC_04_PUT_MigratVideo_api_check_MigrateVideo_from_MediaAdmin_to_mediacontributor_Positive" time="34.334" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+                <testcase name="TC_11_PUT_MigratVideo_api_check_MigrateVideo_from_AccoutAdmin_notgiving_whenuploaded_Positive" time="23.167" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+                <testcase name="TC_06_PUT_MigratVideo_api_check_MigrateVideo_from_mediacontributor_to_mediaadminPositive" time="40.157" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+                <testcase name="TC_02_PUT_MigratVideo_api_check_MigrateVideo_from_AccoutAdmin_to_mediacontributor_Positive" time="36.007" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128" />
+      
+</testsuite>

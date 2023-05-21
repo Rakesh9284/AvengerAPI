@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Acceptance-Deletion Execution" parallel="classes"
+	thread-count="5" preserve-order="true">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.vbrick.avenger.funUtil.CustomReporter" />
+		<listener class-name="com.vbrick.FailedTestCasesRerun.RetryListener" />
+    	<!-- 	<listener class-name="com.vbrick.FailedTestCasesRerun.TestListener" /> -->
+
+	</listeners>
+	<test name="API Created data deletion TestSuites...">
+
+		<classes>
+
+			<!-- Part1 -->
+
+			<class
+				name="com.vbrick.avenger_datadeletion.AvengerApprovalProcessDeletion"></class>
+			<class
+				name="com.vbrick.avenger_datadeletion.AvengerCategoriesDeletion"></class>
+			<class
+				name="com.vbrick.avenger_datadeletion.AvengerPresentationProfileDeletions"></class>
+			<class
+				name="com.vbrick.avenger_datadeletion.AvengerGroupDeletion"></class>
+			<class
+				name="com.vbrick.avenger_datadeletion.AvengerDevicesDeletion"></class>
+            <class
+				name="com.vbrick.avenger_datadeletion.AvengerTeamDeletion"></class>
+			<class
+				name="com.vbrick.avenger_datadeletion.AvengerUsersDeletion"></class>
+            						             
+        		
+		</classes>
+	</test>
+</suite> 
+       

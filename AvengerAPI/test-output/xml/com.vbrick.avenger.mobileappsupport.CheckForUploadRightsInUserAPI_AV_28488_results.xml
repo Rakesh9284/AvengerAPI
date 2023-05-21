@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.441">
+  <properties />
+  
+  
+            <testcase name="TC_03_GET_UploadRights_of_a_MediaContributor_with_AccoutAdmin_Positive" time="0.367" classname="com.vbrick.avenger.mobileappsupport.CheckForUploadRightsInUserAPI_AV_28488" />
+                <testcase name="TC_04_GET_UploadRights_of_an_EventHost_with_AccoutAdmin_Positive" time="1.630" classname="com.vbrick.avenger.mobileappsupport.CheckForUploadRightsInUserAPI_AV_28488" />
+                <testcase name="TC_02_GET_UploadRights_of_a_MediaViewer_with_AccoutAdmin_Positive" time="0.435" classname="com.vbrick.avenger.mobileappsupport.CheckForUploadRightsInUserAPI_AV_28488" />
+                <testcase name="TC_05_GET_UploadRights_of_a_MediaViewer_with_AccoutAdmin_Positive" time="0.666" classname="com.vbrick.avenger.mobileappsupport.CheckForUploadRightsInUserAPI_AV_28488" />
+                <testcase name="TC_01_GET_UploadRights_of_an_AccountAdmin_with_AccoutAdmin_Positive" time="0.343" classname="com.vbrick.avenger.mobileappsupport.CheckForUploadRightsInUserAPI_AV_28488" />
+      
+</testsuite>

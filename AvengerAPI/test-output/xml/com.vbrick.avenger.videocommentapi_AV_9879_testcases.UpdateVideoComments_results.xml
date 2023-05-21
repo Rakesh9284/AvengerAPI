@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="84.004">
+  <properties />
+  
+  
+            <testcase name="TC_01_POST_UpdateVideosCommentsAPI_api_check_with_AccountAdmins_Positive" time="24.278" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UpdateVideoComments" />
+                <testcase name="TC_04_POST_UpdateVideosCommentsAPI_api_check_with_MediaViewer_Negative" time="0.983" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UpdateVideoComments" />
+                <testcase name="TC_07_POST_UpdateVideosCommentsAPI_api_adding_a_Childcomment_to_a_video_AccountAdmins_Positive" time="29.711" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UpdateVideoComments" />
+                <testcase name="TC_06_POST_UpdateVideosCommentsAPI_api_adding_a_Childcomment_INVALID_CommentID_AccountAdmins_Negative" time="1.370" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UpdateVideoComments" />
+                <testcase name="TC_05_POST_UpdateVideosCommentsAPI_api_check_on_behalf_of_anotheruser_Positive" time="25.795" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UpdateVideoComments" />
+                <testcase name="TC_03_POST_UpdateVideosCommentsAPI_api_check_with_MediaViewer_Positive" time="1.319" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UpdateVideoComments" />
+                <testcase name="TC_02_POST_UpdateVideosCommentsAPI_InvalidVideoID_check_with_AccountAdmins_Negative" time="0.548" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UpdateVideoComments" />
+      
+</testsuite>

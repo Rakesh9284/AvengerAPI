@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="307.030">
+  <properties />
+  
+  
+            <testcase name="TC_05_GET_GetVideosStatusAPI_api_check_with_eventadmin_Negative" time="0.744" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoStatus_AV_11232_APITestCase" />
+                <testcase name="TC_02_GET_GetVideosStatusAPI_api_check_with_MediaAdmin_Positive" time="63.625" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoStatus_AV_11232_APITestCase" />
+                <testcase name="TC_03_GET_GetVideosStatusAPI_api_check_with_MediaContributor_Positive" time="57.937" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoStatus_AV_11232_APITestCase" />
+                <testcase name="TC_06_GET_GetVideosStatusAPI_api_check_with_mediaViewer_By_Permission_Negative" time="61.041" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoStatus_AV_11232_APITestCase" />
+                <testcase name="TC_04_GET_GetVideosStatusAPI_api_check_with_mediaViewer_Negative" time="0.787" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoStatus_AV_11232_APITestCase" />
+                <testcase name="TC_01_GET_GetVideoStatusAPI_api_check_with_AccountAdmin_Positive" time="61.744" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoStatus_AV_11232_APITestCase" />
+                <testcase name="TC_08_GET_GetVideosStatusAPI_api_check_AccountAdmins_Invalid_VideoId_Negative" time="0.247" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoStatus_AV_11232_APITestCase" />
+                <testcase name="TC_07_GET_GetVideosStatusAPI_api_check_with_eventadmin_By_Giving_Permission_Negative" time="60.905" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoStatus_AV_11232_APITestCase" />
+      
+</testsuite>

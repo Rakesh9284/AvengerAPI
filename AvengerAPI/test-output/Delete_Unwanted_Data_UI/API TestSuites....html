@@ -1,0 +1,967 @@
+<html>
+<head>
+<title>TestNG:  API TestSuites...</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API TestSuites...</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/5</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 12 18:29:26 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7549 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels.setUP()'><b>setUP</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels<br>Parameters: Chrome, </td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004C6463+2188387]
+	Ordinal0 [0x0045E461+1762401]
+	Ordinal0 [0x00373D78+802168]
+	Ordinal0 [0x00394E59+937561]
+	Ordinal0 [0x00390A6C+920172]
+	Ordinal0 [0x0038E331+910129]
+	Ordinal0 [0x003C1430+1119280]
+	Ordinal0 [0x003C108A+1118346]
+	Ordinal0 [0x003BC5F6+1099254]
+	Ordinal0 [0x00396BE0+945120]
+	Ordinal0 [0x00397AD6+948950]
+	GetHandleVerifier [0x007671F2+2712546]
+	GetHandleVerifier [0x0075886D+2652765]
+	GetHandleVerifier [0x0055002A+520730]
+	GetHandleVerifier [0x0054EE06+516086]
+	Ordinal0 [0x0046468B+1787531]
+	Ordinal0 [0x00468E88+1805960]
+	Ordinal0 [0x00468F75+1806197]
+	Ordinal0 [0x00471DF1+1842673]
+	BaseThreadInitThunk [0x76683677+18]
+	RtlInitializeExceptionChain [0x779C9F42+99]
+	RtlInitializeExceptionChain [0x779C9F15+54]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:142)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:455)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:72)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels.setUP(DeleteAllChannels.java:121)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1592967535", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1592967535'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004C6463+2188387]
+	Ordinal0 [0x0045E461+1762401]
+	Ordinal0 [0x00373D78+802168]
+	Ordinal0 [0x00394E59+937561]
+	Ordinal0 [0x00390A6C+920172]
+	Ordinal0 [0x0038E331+910129]
+	Ordinal0 [0x003C1430+1119280]
+	Ordinal0 [0x003C108A+1118346]
+	Ordinal0 [0x003BC5F6+1099254]
+	Ordinal0 [0x00396BE0+945120]
+	Ordinal0 [0x00397AD6+948950]
+	GetHandleVerifier [0x007671F2+2712546]
+	GetHandleVerifier [0x0075886D+2652765]
+	GetHandleVerifier [0x0055002A+520730]
+	GetHandleVerifier [0x0054EE06+516086]
+	Ordinal0 [0x0046468B+1787531]
+	Ordinal0 [0x00468E88+1805960]
+	Ordinal0 [0x00468F75+1806197]
+	Ordinal0 [0x00471DF1+1842673]
+	BaseThreadInitThunk [0x76683677+18]
+	RtlInitializeExceptionChain [0x779C9F42+99]
+	RtlInitializeExceptionChain [0x779C9F15+54]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:142)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:455)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:72)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels.setUP(DeleteAllChannels.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:601)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels@49e202ad</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups.setUP()'><b>setUP</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups<br>Parameters: Chrome, </td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004C6463+2188387]
+	Ordinal0 [0x0045E461+1762401]
+	Ordinal0 [0x00373D78+802168]
+	Ordinal0 [0x00394E59+937561]
+	Ordinal0 [0x00390A6C+920172]
+	Ordinal0 [0x0038E331+910129]
+	Ordinal0 [0x003C1430+1119280]
+	Ordinal0 [0x003C108A+1118346]
+	Ordinal0 [0x003BC5F6+1099254]
+	Ordinal0 [0x00396BE0+945120]
+	Ordinal0 [0x00397AD6+948950]
+	GetHandleVerifier [0x007671F2+2712546]
+	GetHandleVerifier [0x0075886D+2652765]
+	GetHandleVerifier [0x0055002A+520730]
+	GetHandleVerifier [0x0054EE06+516086]
+	Ordinal0 [0x0046468B+1787531]
+	Ordinal0 [0x00468E88+1805960]
+	Ordinal0 [0x00468F75+1806197]
+	Ordinal0 [0x00471DF1+1842673]
+	BaseThreadInitThunk [0x76683677+18]
+	RtlInitializeExceptionChain [0x779C9F42+99]
+	RtlInitializeExceptionChain [0x779C9F15+54]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:142)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:455)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:72)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups.setUP(DeleteAllGroups.java:121)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1997230949", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1997230949'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004C6463+2188387]
+	Ordinal0 [0x0045E461+1762401]
+	Ordinal0 [0x00373D78+802168]
+	Ordinal0 [0x00394E59+937561]
+	Ordinal0 [0x00390A6C+920172]
+	Ordinal0 [0x0038E331+910129]
+	Ordinal0 [0x003C1430+1119280]
+	Ordinal0 [0x003C108A+1118346]
+	Ordinal0 [0x003BC5F6+1099254]
+	Ordinal0 [0x00396BE0+945120]
+	Ordinal0 [0x00397AD6+948950]
+	GetHandleVerifier [0x007671F2+2712546]
+	GetHandleVerifier [0x0075886D+2652765]
+	GetHandleVerifier [0x0055002A+520730]
+	GetHandleVerifier [0x0054EE06+516086]
+	Ordinal0 [0x0046468B+1787531]
+	Ordinal0 [0x00468E88+1805960]
+	Ordinal0 [0x00468F75+1806197]
+	Ordinal0 [0x00471DF1+1842673]
+	BaseThreadInitThunk [0x76683677+18]
+	RtlInitializeExceptionChain [0x779C9F42+99]
+	RtlInitializeExceptionChain [0x779C9F15+54]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:142)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:455)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:72)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups.setUP(DeleteAllGroups.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:601)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups@80ec1f8</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories.setUP()'><b>setUP</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories<br>Parameters: Chrome, </td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004C6463+2188387]
+	Ordinal0 [0x0045E461+1762401]
+	Ordinal0 [0x00373D78+802168]
+	Ordinal0 [0x00394E59+937561]
+	Ordinal0 [0x00390A6C+920172]
+	Ordinal0 [0x0038E331+910129]
+	Ordinal0 [0x003C1430+1119280]
+	Ordinal0 [0x003C108A+1118346]
+	Ordinal0 [0x003BC5F6+1099254]
+	Ordinal0 [0x00396BE0+945120]
+	Ordinal0 [0x00397AD6+948950]
+	GetHandleVerifier [0x007671F2+2712546]
+	GetHandleVerifier [0x0075886D+2652765]
+	GetHandleVerifier [0x0055002A+520730]
+	GetHandleVerifier [0x0054EE06+516086]
+	Ordinal0 [0x0046468B+1787531]
+	Ordinal0 [0x00468E88+1805960]
+	Ordinal0 [0x00468F75+1806197]
+	Ordinal0 [0x00471DF1+1842673]
+	BaseThreadInitThunk [0x76683677+18]
+	RtlInitializeExceptionChain [0x779C9F42+99]
+	RtlInitializeExceptionChain [0x779C9F15+54]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:142)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:455)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:72)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories.setUP(DeleteAllCategories.java:121)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace435628079", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace435628079'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004C6463+2188387]
+	Ordinal0 [0x0045E461+1762401]
+	Ordinal0 [0x00373D78+802168]
+	Ordinal0 [0x00394E59+937561]
+	Ordinal0 [0x00390A6C+920172]
+	Ordinal0 [0x0038E331+910129]
+	Ordinal0 [0x003C1430+1119280]
+	Ordinal0 [0x003C108A+1118346]
+	Ordinal0 [0x003BC5F6+1099254]
+	Ordinal0 [0x00396BE0+945120]
+	Ordinal0 [0x00397AD6+948950]
+	GetHandleVerifier [0x007671F2+2712546]
+	GetHandleVerifier [0x0075886D+2652765]
+	GetHandleVerifier [0x0055002A+520730]
+	GetHandleVerifier [0x0054EE06+516086]
+	Ordinal0 [0x0046468B+1787531]
+	Ordinal0 [0x00468E88+1805960]
+	Ordinal0 [0x00468F75+1806197]
+	Ordinal0 [0x00471DF1+1842673]
+	BaseThreadInitThunk [0x76683677+18]
+	RtlInitializeExceptionChain [0x779C9F42+99]
+	RtlInitializeExceptionChain [0x779C9F15+54]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:142)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:455)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:72)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories.setUP(DeleteAllCategories.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:601)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories@1c72da34</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles.setUP()'><b>setUP</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles<br>Parameters: Chrome, </td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004C6463+2188387]
+	Ordinal0 [0x0045E461+1762401]
+	Ordinal0 [0x00373D78+802168]
+	Ordinal0 [0x00394E59+937561]
+	Ordinal0 [0x00390A6C+920172]
+	Ordinal0 [0x0038E331+910129]
+	Ordinal0 [0x003C1430+1119280]
+	Ordinal0 [0x003C108A+1118346]
+	Ordinal0 [0x003BC5F6+1099254]
+	Ordinal0 [0x00396BE0+945120]
+	Ordinal0 [0x00397AD6+948950]
+	GetHandleVerifier [0x007671F2+2712546]
+	GetHandleVerifier [0x0075886D+2652765]
+	GetHandleVerifier [0x0055002A+520730]
+	GetHandleVerifier [0x0054EE06+516086]
+	Ordinal0 [0x0046468B+1787531]
+	Ordinal0 [0x00468E88+1805960]
+	Ordinal0 [0x00468F75+1806197]
+	Ordinal0 [0x00471DF1+1842673]
+	BaseThreadInitThunk [0x76683677+18]
+	RtlInitializeExceptionChain [0x779C9F42+99]
+	RtlInitializeExceptionChain [0x779C9F15+54]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:142)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:455)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:72)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles.setUP(DeleteAllPresentationProfiles.java:125)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace586075838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace586075838'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004C6463+2188387]
+	Ordinal0 [0x0045E461+1762401]
+	Ordinal0 [0x00373D78+802168]
+	Ordinal0 [0x00394E59+937561]
+	Ordinal0 [0x00390A6C+920172]
+	Ordinal0 [0x0038E331+910129]
+	Ordinal0 [0x003C1430+1119280]
+	Ordinal0 [0x003C108A+1118346]
+	Ordinal0 [0x003BC5F6+1099254]
+	Ordinal0 [0x00396BE0+945120]
+	Ordinal0 [0x00397AD6+948950]
+	GetHandleVerifier [0x007671F2+2712546]
+	GetHandleVerifier [0x0075886D+2652765]
+	GetHandleVerifier [0x0055002A+520730]
+	GetHandleVerifier [0x0054EE06+516086]
+	Ordinal0 [0x0046468B+1787531]
+	Ordinal0 [0x00468E88+1805960]
+	Ordinal0 [0x00468F75+1806197]
+	Ordinal0 [0x00471DF1+1842673]
+	BaseThreadInitThunk [0x76683677+18]
+	RtlInitializeExceptionChain [0x779C9F42+99]
+	RtlInitializeExceptionChain [0x779C9F15+54]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:142)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:455)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:72)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles.setUP(DeleteAllPresentationProfiles.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:601)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles@3d3fcdb0</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices.setUP()'><b>setUP</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices<br>Parameters: Chrome, </td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004C6463+2188387]
+	Ordinal0 [0x0045E461+1762401]
+	Ordinal0 [0x00373D78+802168]
+	Ordinal0 [0x00394E59+937561]
+	Ordinal0 [0x00390A6C+920172]
+	Ordinal0 [0x0038E331+910129]
+	Ordinal0 [0x003C1430+1119280]
+	Ordinal0 [0x003C108A+1118346]
+	Ordinal0 [0x003BC5F6+1099254]
+	Ordinal0 [0x00396BE0+945120]
+	Ordinal0 [0x00397AD6+948950]
+	GetHandleVerifier [0x007671F2+2712546]
+	GetHandleVerifier [0x0075886D+2652765]
+	GetHandleVerifier [0x0055002A+520730]
+	GetHandleVerifier [0x0054EE06+516086]
+	Ordinal0 [0x0046468B+1787531]
+	Ordinal0 [0x00468E88+1805960]
+	Ordinal0 [0x00468F75+1806197]
+	Ordinal0 [0x00471DF1+1842673]
+	BaseThreadInitThunk [0x76683677+18]
+	RtlInitializeExceptionChain [0x779C9F42+99]
+	RtlInitializeExceptionChain [0x779C9F15+54]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:142)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:455)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:72)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices.setUP(DeleteAllDevices.java:125)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace959141268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace959141268'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004C6463+2188387]
+	Ordinal0 [0x0045E461+1762401]
+	Ordinal0 [0x00373D78+802168]
+	Ordinal0 [0x00394E59+937561]
+	Ordinal0 [0x00390A6C+920172]
+	Ordinal0 [0x0038E331+910129]
+	Ordinal0 [0x003C1430+1119280]
+	Ordinal0 [0x003C108A+1118346]
+	Ordinal0 [0x003BC5F6+1099254]
+	Ordinal0 [0x00396BE0+945120]
+	Ordinal0 [0x00397AD6+948950]
+	GetHandleVerifier [0x007671F2+2712546]
+	GetHandleVerifier [0x0075886D+2652765]
+	GetHandleVerifier [0x0055002A+520730]
+	GetHandleVerifier [0x0054EE06+516086]
+	Ordinal0 [0x0046468B+1787531]
+	Ordinal0 [0x00468E88+1805960]
+	Ordinal0 [0x00468F75+1806197]
+	Ordinal0 [0x00471DF1+1842673]
+	BaseThreadInitThunk [0x76683677+18]
+	RtlInitializeExceptionChain [0x779C9F42+99]
+	RtlInitializeExceptionChain [0x779C9F15+54]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:142)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:455)
+	at com.vbrick.avenger.setup.TestBase.initializeDriver(TestBase.java:72)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices.setUP(DeleteAllDevices.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:601)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices@6b0c2d26</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels.browserClose()'><b>browserClose</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels<br>Parameters: [TestResult name=TC_01_Deleting_All_Channels_From_UI status=SKIP method=DeleteAllChannels.TC_01_Deleting_All_Channels_From_UI(org.testng.ITestContext)[pri:0, instance:com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels@49e202ad] output={null}]<br/>
+<a href="#Output-167961337" onClick='toggleBox("Output-167961337", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-167961337" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-167961337">
+Screen shot for failed Test Case<a href="C:\Users\arjun.abhesheke\git\AvengerAPIUpdate\AvengerAPI\target\surefire-reports\Screenshots\null202209255182930.png"><p align="left"><h5>Error screenshot :: null202209255182930.png</h5></p></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.vbrick.avenger.setup.TestBase.browserQuit(TestBase.java:715)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels.browserClose(DeleteAllChannels.java:154)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace167961337", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace167961337'><pre>java.lang.NullPointerException
+	at com.vbrick.avenger.setup.TestBase.browserQuit(TestBase.java:715)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels.browserClose(DeleteAllChannels.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels@49e202ad</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups.browserClose()'><b>browserClose</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups<br>Parameters: [TestResult name=TC_01_Deleting_All_Groups_From_UI status=SKIP method=DeleteAllGroups.TC_01_Deleting_All_Groups_From_UI(org.testng.ITestContext)[pri:0, instance:com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups@80ec1f8] output={null}]<br/>
+<a href="#Output-1014715666" onClick='toggleBox("Output-1014715666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1014715666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1014715666">
+Screen shot for failed Test Case<a href="C:\Users\arjun.abhesheke\git\AvengerAPIUpdate\AvengerAPI\target\surefire-reports\Screenshots\null202209255182930.png"><p align="left"><h5>Error screenshot :: null202209255182930.png</h5></p></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.vbrick.avenger.setup.TestBase.browserQuit(TestBase.java:715)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups.browserClose(DeleteAllGroups.java:156)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1014715666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1014715666'><pre>java.lang.NullPointerException
+	at com.vbrick.avenger.setup.TestBase.browserQuit(TestBase.java:715)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups.browserClose(DeleteAllGroups.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups@80ec1f8</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories.browserClose()'><b>browserClose</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories<br>Parameters: [TestResult name=TC_01_Deleting_All_Categories_From_UI status=SKIP method=DeleteAllCategories.TC_01_Deleting_All_Categories_From_UI(org.testng.ITestContext)[pri:0, instance:com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories@1c72da34] output={null}]<br/>
+<a href="#Output-230767448" onClick='toggleBox("Output-230767448", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-230767448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-230767448">
+Screen shot for failed Test Case<a href="C:\Users\arjun.abhesheke\git\AvengerAPIUpdate\AvengerAPI\target\surefire-reports\Screenshots\null202209255182932.png"><p align="left"><h5>Error screenshot :: null202209255182932.png</h5></p></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.vbrick.avenger.setup.TestBase.browserQuit(TestBase.java:715)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories.browserClose(DeleteAllCategories.java:154)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace230767448", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace230767448'><pre>java.lang.NullPointerException
+	at com.vbrick.avenger.setup.TestBase.browserQuit(TestBase.java:715)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories.browserClose(DeleteAllCategories.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories@1c72da34</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles.browserClose()'><b>browserClose</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles<br>Parameters: [TestResult name=TC_01_Deleting_All_PresentationProfiles_From_UI status=SKIP method=DeleteAllPresentationProfiles.TC_01_Deleting_All_PresentationProfiles_From_UI(org.testng.ITestContext)[pri:0, instance:com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles@3d3fcdb0] output={null}]<br/>
+<a href="#Output-1516373248" onClick='toggleBox("Output-1516373248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1516373248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1516373248">
+Screen shot for failed Test Case<a href="C:\Users\arjun.abhesheke\git\AvengerAPIUpdate\AvengerAPI\target\surefire-reports\Screenshots\null202209255182933.png"><p align="left"><h5>Error screenshot :: null202209255182933.png</h5></p></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.vbrick.avenger.setup.TestBase.browserQuit(TestBase.java:715)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles.browserClose(DeleteAllPresentationProfiles.java:159)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1516373248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1516373248'><pre>java.lang.NullPointerException
+	at com.vbrick.avenger.setup.TestBase.browserQuit(TestBase.java:715)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles.browserClose(DeleteAllPresentationProfiles.java:159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles@3d3fcdb0</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices.browserClose()'><b>browserClose</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices<br>Parameters: [TestResult name=TC_01_Deleting_All_Devices_From_UI status=SKIP method=DeleteAllDevices.TC_01_Deleting_All_Devices_From_UI(org.testng.ITestContext)[pri:0, instance:com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices@6b0c2d26] output={null}]<br/>
+<a href="#Output-718381448" onClick='toggleBox("Output-718381448", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-718381448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-718381448">
+Screen shot for failed Test Case<a href="C:\Users\arjun.abhesheke\git\AvengerAPIUpdate\AvengerAPI\target\surefire-reports\Screenshots\null202209255182934.png"><p align="left"><h5>Error screenshot :: null202209255182934.png</h5></p></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.vbrick.avenger.setup.TestBase.browserQuit(TestBase.java:715)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices.browserClose(DeleteAllDevices.java:159)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace718381448", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace718381448'><pre>java.lang.NullPointerException
+	at com.vbrick.avenger.setup.TestBase.browserQuit(TestBase.java:715)
+	at com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices.browserClose(DeleteAllDevices.java:159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices@6b0c2d26</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories.TC_01_Deleting_All_Categories_From_UI()'><b>TC_01_Deleting_All_Categories_From_UI</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories<br>Test method: To Verify the CreateGroup using CreateGroup API with Account Admin <br>Parameters: org.testng.TestRunner@44e589b5</td>
+<td></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories@1c72da34</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels.TC_01_Deleting_All_Channels_From_UI()'><b>TC_01_Deleting_All_Channels_From_UI</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels<br>Test method: To Verify the CreateGroup using CreateGroup API with Account Admin <br>Parameters: org.testng.TestRunner@44e589b5</td>
+<td></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels@49e202ad</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices.TC_01_Deleting_All_Devices_From_UI()'><b>TC_01_Deleting_All_Devices_From_UI</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices<br>Test method: To Verify the CreateGroup using CreateGroup API with Account Admin <br>Parameters: org.testng.TestRunner@44e589b5</td>
+<td></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices@6b0c2d26</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups.TC_01_Deleting_All_Groups_From_UI()'><b>TC_01_Deleting_All_Groups_From_UI</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups<br>Test method: To Verify the CreateGroup using CreateGroup API with Account Admin <br>Parameters: org.testng.TestRunner@44e589b5</td>
+<td></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups@80ec1f8</td></tr>
+<tr>
+<td title='com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles.TC_01_Deleting_All_PresentationProfiles_From_UI()'><b>TC_01_Deleting_All_PresentationProfiles_From_UI</b><br>Test class: com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles<br>Test method: To Verify the CreateGroup using CreateGroup API with Account Admin <br>Parameters: org.testng.TestRunner@44e589b5</td>
+<td></td>
+<td>0</td>
+<td>com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles@3d3fcdb0</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="141.217">
+  <properties />
+  
+  
+            <testcase name="TC_08_POST_CreateCategory_api_check_With_AccountAdmin_SetNameNull_Negative" time="0.513" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateCategoryApi_AV_10647" />
+                <testcase name="TC_02_POST_ChildCategory_api_check_With_AccountAdmin_Positive" time="37.763" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateCategoryApi_AV_10647" />
+                <testcase name="TC_03_POST_CreateCategory_api_check_With_MediaAdmin_Positive" time="32.754" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateCategoryApi_AV_10647" />
+                <testcase name="TC_07_POST_CreateCategory_api_check_With_MediaViewer_Negative" time="0.224" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateCategoryApi_AV_10647" />
+                <testcase name="TC_04_POST_ChildCategory_api_check_With_MediaAdmin_Positive" time="31.133" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateCategoryApi_AV_10647" />
+                <testcase name="TC_06_POST_CreateCategory_api_check_With_EventAdmin_Negative" time="0.186" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateCategoryApi_AV_10647" />
+                <testcase name="TC_05_POST_CreateCategory_api_check_With_MediaContributor_Negative" time="0.234" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateCategoryApi_AV_10647" />
+                <testcase name="TC_01_POST_CreateCategory_api_check_With_AccountAdmin_Positive" time="38.410" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateCategoryApi_AV_10647" />
+      
+</testsuite>

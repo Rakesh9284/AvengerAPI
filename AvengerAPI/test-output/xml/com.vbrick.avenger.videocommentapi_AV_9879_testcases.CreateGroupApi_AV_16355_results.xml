@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="81.520">
+  <properties />
+  
+  
+            <testcase name="TC_02_POST_CreateGroup_api_check_With_MediaContributor_Negative" time="0.222" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateGroupApi_AV_16355" />
+                <testcase name="TC_07_POST_CreateGroup_With_AllFields_api_check_With_AccountAdmin_Positive" time="30.292" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateGroupApi_AV_16355" />
+                <testcase name="TC_03_POST_CreateGroup_api_check_With_MediaAdmin_Negative" time="0.243" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateGroupApi_AV_16355" />
+                <testcase name="TC_04_POST_CreateGroup_api_check_With_EventAdmin_Negative" time="0.220" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateGroupApi_AV_16355" />
+                <testcase name="TC_06_POST_CreateGroup_api_withoutgiving_groupname_check_With_AccountAdmin_Negative" time="0.273" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateGroupApi_AV_16355" />
+                <testcase name="TC_05_POST_CreateGroup_api_check_With_MediaViewer_Negative" time="0.246" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateGroupApi_AV_16355" />
+                <testcase name="TC_01_POST_CreateGroup_api_check_With_AccountAdmin_Positive" time="50.024" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateGroupApi_AV_16355" />
+      
+</testsuite>

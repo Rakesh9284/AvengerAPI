@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="303.849">
+  <properties />
+  
+  
+            <testcase name="TC_02_POST_CreateTeam_api_check_With_MediaAdmin_Positive" time="28.181" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV" />
+                <testcase name="TC_08_POST_CreateTeam_api_giving_existing_teamname_with_AccountAdmin_Negative" time="0.370" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV" />
+                <testcase name="TC_10_POST_CreateTeam_With_AccountAdmin_givingfewvalidandfewinvalid_usersandgroups_Positive" time="46.958" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV" />
+                <testcase name="TC_07_POST_CreateTeam_With_AllFields_api_check_With_AccountAdmin_withmultipletammembers_Positive" time="84.261" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV" />
+                <testcase name="TC_05_POST_CreateTeam_api_withoutgiving_mandatory_teamname_with_AccountAdmin_Negative" time="0.256" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV" />
+                <testcase name="TC_04_POST_CreateTeam_api_check_With_EventAdmin_and_EventHost_Negative" time="0.461" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV" />
+                <testcase name="TC_06_POST_CreateTeam_With_AllFields_api_check_With_AccountAdmin_Positive" time="88.095" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV" />
+                <testcase name="TC_03_POST_CreateTeam_api_check_With_MediaContributor_and_MediaViewer_Negative" time="0.497" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV" />
+                <testcase name="TC_01_POST_CreateTeam_api_check_With_AccountAdmin_Positive" time="26.643" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV" />
+                <testcase name="TC_09_POST_CreateTeam_api_check_With_MediaViewer_whenaddedto_grouphaving_MediaAdminaccess_Positive" time="28.127" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV" />
+      
+</testsuite>

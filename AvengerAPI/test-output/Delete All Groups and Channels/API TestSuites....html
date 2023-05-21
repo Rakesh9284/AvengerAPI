@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>TestNG:  API TestSuites...</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API TestSuites...</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 20 11:55:56 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>2172 seconds (2172580 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories.TC_01_Deleting_All_Categories_From_UI()'><b>TC_01_Deleting_All_Categories_From_UI</b><br>Test class: com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories<br>Test method: To Verify the CreateGroup using CreateGroup API with Account Admin <br>Parameters: org.testng.TestRunner@6b4aa61<br/>
+<a href="#Output-1190127951" onClick='toggleBox("Output-1190127951", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1190127951" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1190127951">
+Step-1:Application launch with URL : https://autoapi.rev-qa.vbrick.com/<br><br/>
+Step-2:User name has been Entered<br><br/>
+Step-3:Password has been entered<br><br/>
+Step-4:Submit button Clicked<br><br/>
+Step-5:Login SucessFully<br><br/>
+Step-6:categories  link is clicked<br><br/>
+<font color='red'>1.Automation Team will Address it:TimeOutException<br>2.The Object Properties have been Modified<br>In PageLog On with locatorBy.xpath: //button[contains(text(),'Delete')]</font><br/>
+</div>
+</td>
+<td><div><pre>
+	at com.vbrick.avenger.funUtil.WaitForElements.waitForElementPresent(WaitForElements.java:140)
+	at com.vbrick.avenger.funUtil.WebElements.click(WebElements.java:342)
+	at com.vbrick.avenger.pageobjects.AvengerHomePage.deleteAllCategories(AvengerHomePage.java:500)
+	at com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories.TC_01_Deleting_All_Categories_From_UI(DeleteAllCategories.java:142)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1190127951", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1190127951'><pre>
+	at com.vbrick.avenger.funUtil.WaitForElements.waitForElementPresent(WaitForElements.java:140)
+	at com.vbrick.avenger.funUtil.WebElements.click(WebElements.java:342)
+	at com.vbrick.avenger.pageobjects.AvengerHomePage.deleteAllCategories(AvengerHomePage.java:500)
+	at com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories.TC_01_Deleting_All_Categories_From_UI(DeleteAllCategories.java:142)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>563</td>
+<td>com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories@1445d7f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories.TC_01_Deleting_All_Categories_From_UI()'><b>TC_01_Deleting_All_Categories_From_UI</b><br>Test class: com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories<br>Test method: To Verify the CreateGroup using CreateGroup API with Account Admin <br>Parameters: org.testng.TestRunner@6b4aa61<br/>
+<a href="#Output-1949157354" onClick='toggleBox("Output-1949157354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1949157354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1949157354">
+Step-1:Application launch with URL : https://autoapi.rev-qa.vbrick.com/<br><br/>
+Step-2:User name has been Entered<br><br/>
+Step-3:Password has been entered<br><br/>
+Step-4:Submit button Clicked<br><br/>
+Step-5:Login SucessFully<br><br/>
+Step-6:categories  link is clicked<br><br/>
+Step-7:Groups  link is clicked<br><br/>
+</div>
+</td>
+<td></td>
+<td>76</td>
+<td>com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories@1445d7f</td></tr>
+<tr>
+<td title='com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllChannels.TC_01_Deleting_All_Channels_From_UI()'><b>TC_01_Deleting_All_Channels_From_UI</b><br>Test class: com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllChannels<br>Test method: To Verify the CreateGroup using CreateGroup API with Account Admin <br>Parameters: org.testng.TestRunner@6b4aa61<br/>
+<a href="#Output-1498983838" onClick='toggleBox("Output-1498983838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1498983838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1498983838">
+Step-1:Application launch with URL : https://autoapi.rev-qa.vbrick.com/<br><br/>
+Step-2:User name has been Entered<br><br/>
+Step-3:Password has been entered<br><br/>
+Step-4:Submit button Clicked<br><br/>
+Step-5:Login SucessFully<br><br/>
+Step-6:Channels  link is clicked<br><br/>
+Step-7:Groups  link is clicked<br><br/>
+</div>
+</td>
+<td></td>
+<td>260</td>
+<td>com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllChannels@80ec1f8</td></tr>
+<tr>
+<td title='com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllGroups.TC_01_Deleting_All_Groups_From_UI()'><b>TC_01_Deleting_All_Groups_From_UI</b><br>Test class: com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllGroups<br>Test method: To Verify the CreateGroup using CreateGroup API with Account Admin <br>Parameters: org.testng.TestRunner@6b4aa61<br/>
+<a href="#Output-1672385475" onClick='toggleBox("Output-1672385475", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1672385475" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1672385475">
+Step-1:Application launch with URL : https://autoapi.rev-qa.vbrick.com/<br><br/>
+Step-2:User name has been Entered<br><br/>
+Step-3:Password has been entered<br><br/>
+Step-4:Submit button Clicked<br><br/>
+Step-5:Login SucessFully<br><br/>
+Step-6:Groups  link is clicked<br><br/>
+Step-7:Groups  link is clicked<br><br/>
+</div>
+</td>
+<td></td>
+<td>579</td>
+<td>com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllGroups@3e77a1ed</td></tr>
+<tr>
+<td title='com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllPresentationProfiles.TC_01_Deleting_All_PresentationProfiles_From_UI()'><b>TC_01_Deleting_All_PresentationProfiles_From_UI</b><br>Test class: com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllPresentationProfiles<br>Test method: To Verify the CreateGroup using CreateGroup API with Account Admin <br>Parameters: org.testng.TestRunner@6b4aa61<br/>
+<a href="#Output-1313897552" onClick='toggleBox("Output-1313897552", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1313897552" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1313897552">
+Step-1:Application launch with URL : https://autoapi.rev-qa.vbrick.com/<br><br/>
+Step-2:User name has been Entered<br><br/>
+Step-3:Password has been entered<br><br/>
+Step-4:Submit button Clicked<br><br/>
+Step-5:Login SucessFully<br><br/>
+Step-6:Devices Link is clicked<br><br/>
+Step-7:Presentation Profile is clicked<br><br/>
+Step-8:Groups  link is clicked<br><br/>
+</div>
+</td>
+<td></td>
+<td>334</td>
+<td>com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllPresentationProfiles@6a396c1e</td></tr>
+</table><p>
+</body>
+</html>

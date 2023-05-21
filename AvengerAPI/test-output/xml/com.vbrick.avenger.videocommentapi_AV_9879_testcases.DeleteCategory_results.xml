@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="263.675">
+  <properties />
+  
+  
+            <testcase name="TC_03_DELETE_DeleteCategory_api_check_With_MediaContributor_Positive" time="0.440" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteCategory" />
+                <testcase name="TC_02_DELETE_DeleteCategory_api_check_With_MediaAdmin_Positive" time="137.372" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteCategory" />
+                <testcase name="TC_05_DELETE_DeletCategory_api_check_With_MediaViewer_Update_Title_Positive" time="0.580" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteCategory" />
+                <testcase name="TC_04_DELETE_DeleteCategory_api_check_With_EventAdmin_Positive" time="0.451" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteCategory" />
+                <testcase name="TC_01_DELETE_DeletCategory_api_check_With_AccountAdmin_Positive" time="124.832" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteCategory" />
+      
+</testsuite>

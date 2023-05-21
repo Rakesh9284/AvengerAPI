@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="14"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="499.999">
+  <properties />
+  
+  
+            <testcase name="TC_02_POST_Create_User_withoutrole_withonlymandatoryfields_Postive" time="57.476" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_07_POST_Create_Account_Admin_User_withallthefields_Postive" time="56.915" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_05_POST_Create_Media_Contributor_User_withexistingemailid_Negative" time="0.710" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_14_POST_Create_Media_Viewer_User_withallthefields_Postive" time="52.035" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_09_POST_CreateUser_with_Blank_UserName_Negative" time="0.396" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_10_POST_LastName_with_Blank_LastName_Negative" time="0.333" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_04_POST_Create_Event_Host_User_withonlymandatoryfields_Postive" time="53.143" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_06_POST_Create_Media_Viewer_User_withonlymandatoryfields_Postive" time="54.858" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_11_POST_ContactEmail_with_Blank_ContactEmail_Positive" time="0.372" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_03_POST_Create_Event_Admin_User_withmandatoryfields_Postive" time="53.683" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_13_POST_Create_Event_Host_User_withallthefields_Postive" time="53.292" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_12_POST_Create_Media_Viewer_User_withmediadmincredentials_Postive" time="0.374" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_08_POST_Create_Account_Admin_User_withallthefields_langasgerman_Postive" time="54.950" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+                <testcase name="TC_01_POST_Create_Account_Adminuser_withonlymandatoryfields_Postive" time="61.462" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874" />
+      
+</testsuite>

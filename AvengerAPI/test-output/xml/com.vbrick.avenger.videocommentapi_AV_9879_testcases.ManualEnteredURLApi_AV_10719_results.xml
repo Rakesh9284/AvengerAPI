@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="200.830">
+  <properties />
+  
+  
+            <testcase name="TC_03_POST_ManualEnteredURL_api_check_with_MediaContributor_Positive" time="88.628" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.ManualEnteredURLApi_AV_10719" />
+                <testcase name="TC_01_POST_ManualEnteredURL_api_check_with_AccoutAdmin_Positive" time="56.421" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.ManualEnteredURLApi_AV_10719" />
+                <testcase name="TC_04_POST_ManualEnteredURL_api_check_with_EventAdmin_Negative" time="0.456" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.ManualEnteredURLApi_AV_10719" />
+                <testcase name="TC_02_POST_ManualEnteredURL_api_check_with_MediaAdmin_Positive" time="54.858" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.ManualEnteredURLApi_AV_10719" />
+                <testcase name="TC_05_POST_ManualEnteredURL_api_check_with_MediaViewer_Negative" time="0.467" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.ManualEnteredURLApi_AV_10719" />
+      
+</testsuite>

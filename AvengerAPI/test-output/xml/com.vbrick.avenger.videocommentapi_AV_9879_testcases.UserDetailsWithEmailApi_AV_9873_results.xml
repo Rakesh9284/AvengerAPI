@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="408.556">
+  <properties />
+  
+  
+            <testcase name="TC_06_GET_UserEmail_api_check_UserEmail_with_InvalidUserEmail_Negative" time="0.318" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithEmailApi_AV_9873" />
+                <testcase name="TC_03_GET_UserEmail_api_check_UserEmail_with_MediaContributor_Positive" time="43.845" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithEmailApi_AV_9873" />
+                <testcase name="TC_02_GET_UserEmail_api_check_UserEmail_with_MediaAdmin_Positive" time="158.682" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithEmailApi_AV_9873" />
+                <testcase name="TC_07_GET_UserEmail_api_check_UserEmail_with_Eventhost_Positive" time="48.159" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithEmailApi_AV_9873" />
+                <testcase name="TC_05_GET_UserEmail_api_check_UserEmail_with_MediaViewer_Positive" time="53.213" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithEmailApi_AV_9873" />
+                <testcase name="TC_04_GET_UserEmail_api_check_UserEmail_with_Eventadmin_Positive" time="54.065" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithEmailApi_AV_9873" />
+                <testcase name="TC_01_GET_UserEmail_api_check_UserEmail_with_AccoutAdmin_Positive" time="49.971" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithEmailApi_AV_9873" />
+                <testcase name="TC_08_GET_UserEmail_api_check_UserEmail_with_EventHost_Negative" time="0.303" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithEmailApi_AV_9873" />
+      
+</testsuite>

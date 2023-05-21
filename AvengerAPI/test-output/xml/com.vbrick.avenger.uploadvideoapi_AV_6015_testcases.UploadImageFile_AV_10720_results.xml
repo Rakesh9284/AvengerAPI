@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="314.959">
+  <properties />
+  
+  
+            <testcase name="TC_05_UploadImageFiles_AV10720_Uploading_ImageContent_MediaViewer" time="0.747" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720" />
+                <testcase name="TC_09_UploadSupplementalFiles_AV10721_Uploading_SupplementalContent_AccountAdmin_InValidFileFormat" time="0.877" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720" />
+                <testcase name="TC_01_UploadImageFiles_AV10720_Uploading_ImageContent_AccountAdmin" time="26.337" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720" />
+                <testcase name="TC_02_UploadImageFiles_AV10720_Uploading_ImageContent_MediaAdmin" time="29.829" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720" />
+                <testcase name="TC_08_UploadSupplementalFiles_AV10721_Uploading_SupplementalContent_AccountAdmin_InValidFileFormat" time="1.297" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720" />
+                <testcase name="TC_06_UploadImageFiles_AV10720_Uploading_ImageContent_EventAdmin_ByGivingPermisssion" time="142.508" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720" />
+                <testcase name="TC_04_UploadImageFiles_AV10720_Uploading_ImageContent_EventAdmin" time="0.888" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720" />
+                <testcase name="TC_07_UploadImageFiles_AV10720_Uploading_ImageContent_MediaViewer_ByGivingPermission" time="85.075" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720" />
+                <testcase name="TC_03_UploadImageFiles_AV10720_Uploading_ImageContent_MediaContributor" time="27.401" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720" />
+      
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="520.113">
+  <properties />
+  
+  
+            <testcase name="TC_05_DELETE_DeletePlaylist_api_check_With_MediaViewer_Positive" time="94.528" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.DeletePlaylistAPI_AV14933" />
+                <testcase name="TC_01_DELETE_DeletePlaylist_api_check_With_AccountAdmin_Positive" time="87.219" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.DeletePlaylistAPI_AV14933" />
+                <testcase name="TC_02_DELETE_DeletePlaylist_api_check_With_MediaAdmin_Positive" time="83.443" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.DeletePlaylistAPI_AV14933" />
+                <testcase name="TC_04_DELETE_DeletePlaylist_api_check_With_EventHost_Positive" time="85.106" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.DeletePlaylistAPI_AV14933" />
+                <testcase name="TC_06_DELETE_DeletePlaylist_api_check_With_Mediacontributor_Positive" time="81.005" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.DeletePlaylistAPI_AV14933" />
+                <testcase name="TC_03_DELETE_DeletePlaylist_api_check_With_EventAdmin_Positive" time="88.812" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.DeletePlaylistAPI_AV14933" />
+      
+</testsuite>

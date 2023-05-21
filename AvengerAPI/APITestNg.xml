@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="api TESTING....." parallel="tests" -->
+ <suite name="api TESTING....." parallel="classes"  thread-count="9">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+ 	 </listeners>
+
+	<test name="API TestSuites...">
+	 	<classes>
+	<!-- 	<class name="com.vbrick.avenger.createuserapi_AV_9874_testcases.AddNewUser_AV_9874"></class>
+	 	<class name="com.vbrick.avenger.deletevideoapi_AV_9129_testcases.TestCaseDeleteVideoApi"></class> -->
+		
+		<class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadVideos_AV_6015"></class>
+		<!--	<class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.EditVideos_AV_10124"></class>
+ 	<class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SubmitVideosComments_AV_9879"></class>   -->
+		</classes>
+	</test>
+	 
+</suite> 
+

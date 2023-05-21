@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.961">
+  <properties />
+  
+  
+            <testcase name="TC_01_GET_UserRoles_api_check_UserRoles_with_AccoutAdmin_Positive" time="20.808" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetUserRolesApi_Av_10744" />
+                <testcase name="TC_02_GET_UserRoles_api_check_UserRoles_with_MediaAdmin_Negative" time="0.248" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetUserRolesApi_Av_10744" />
+                <testcase name="TC_03_GET_UserRoles_api_check_UserRoles_with_MediaContributor_Negative" time="0.270" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetUserRolesApi_Av_10744" />
+                <testcase name="TC_05_GET_UserRoles_api_check_UserRoles_with_MediaViewer_Negative" time="0.171" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetUserRolesApi_Av_10744" />
+                <testcase name="TC_04_GET_UserRoles_api_check_UserRoles_with_Eventadmin_Negative" time="0.226" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetUserRolesApi_Av_10744" />
+                <testcase name="TC_06_GET_UserRoles_api_check_UserRoles_with_Eventhost_Negative" time="0.238" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetUserRolesApi_Av_10744" />
+      
+</testsuite>

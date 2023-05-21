@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="15"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="668.860">
+  <properties />
+  
+  
+            <testcase name="TC_05_GET_VideoPlayBackURLAPI_api_check_with_AccountAdmin_PrivateVideo_Positive" time="34.469" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_06_GET_VideoPlayBackURLAPI_api_check_with_EventHost_AllUsers_Positive" time="46.294" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_13_GET_VideoPlayBackURLAPI_api_check_with_AccountAdmin_userasteamcontributor_TeamsVideo_Positive" time="34.917" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_10_GET_VideoPlayBackURLAPI_api_check_with_EventAdmin_Public_Positive" time="36.624" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_02_GET_VideoPlayBackURLAPI_api_check_with_MediaAdmin_Positive" time="35.597" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_04_GET_VideoPlayBackURLAPI_api_check_with_MediaContributor_Positive" time="44.299" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_01_GET_VideoPlayBackURLAPI_api_check_with_AccountAdmin_Positive" time="63.150" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_07_GET_VideoPlayBackURLAPI_api_check_with_AccountAdmin_AllUsers_Positive" time="37.176" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_15_GET_VideoPlayBackURLAPI_api_check_with_MediaContributor_TeamsVideo_Negative" time="1.041" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_11_GET_VideoPlayBackURLAPI_api_check_with_EventAdmin_Negative" time="0.730" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_09_GET_VideoPlayBackURLAPI_api_check_with_AccountAdmin_InValidVideo_Negative" time="0.786" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_14_GET_VideoPlayBackURLAPI_check_with_MediaAdmin_TeamsVideo_MAaddedtogroup_havingteamadminaccess_Positive" time="31.283" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_12_GET_VideoPlayBackURLAPI_api_check_with_MediaContributor_AllUsers_Positive" time="28.209" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_03_GET_VideoPlayBackURLAPI_api_check_with_MediaViewer_PrivateVideo_bygivingaccess_Positive" time="229.341" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+                <testcase name="TC_08_GET_VideoPlayBackURLAPI_api_check_with_MediaViewer_Public_Positive" time="44.944" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites...(failed)"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="35.090">
+  <properties />
+  
+  
+            <testcase name="TC_10_GET_TeamList_api_check_With_AccountAdmin_Positive" time="35.090" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetTeamsApi_AV_" />
+      
+</testsuite>

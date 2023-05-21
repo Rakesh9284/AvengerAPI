@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="735.024">
+  <properties />
+  
+            <testcase name="AT_verify_userCreation_1to40" time="0.0" classname="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40">
+          <skipped />
+    </testcase>
+  
+            <testcase name="AT_verify_userCreation_1to40" time="59.819" classname="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40" />
+                <testcase name="AT_verify_userCreation_1to40" time="43.295" classname="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40" />
+                <testcase name="AT_verify_userCreation_1to40" time="40.960" classname="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40" />
+                <testcase name="AT_verify_userCreation_1to40" time="45.061" classname="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40" />
+                <testcase name="AT_verify_userCreation_1to40" time="40.067" classname="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40" />
+                <testcase name="AT_verify_userCreation_1to40" time="57.515" classname="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40" />
+                <testcase name="AT_verify_userCreation_1to40" time="43.046" classname="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40" />
+                <testcase name="AT_verify_userCreation_1to40" time="41.939" classname="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40" />
+                <testcase name="AT_verify_userCreation_1to40" time="49.211" classname="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40" />
+      
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="125.944">
+  <properties />
+  
+  
+            <testcase name="TC_05_GET_SearchVideo_OwnerField_check_SearchVideo_INVALID_UserId_with_AccoutAdmin_Negative" time="10.703" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.OwnerFieldInSearchApi" />
+                <testcase name="TC_03_GET_SearchVideo_OwnerField_check_SearchVideo_Multiple_UserIds_with_AccoutAdmin_Positive" time="23.435" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.OwnerFieldInSearchApi" />
+                <testcase name="TC_01_GET_SearchVideo_OwnerField_check_SearchVideo_with_AccoutAdmin_Positive" time="57.703" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.OwnerFieldInSearchApi" />
+                <testcase name="TC_02_GET_SearchVideo_OwnerField_check_SearchVideo_Multiple_Username_with_AccoutAdmin_Positive" time="22.467" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.OwnerFieldInSearchApi" />
+                <testcase name="TC_04_GET_SearchVideo_OwnerField_check_SearchVideo_INVALID_Username_with_AccoutAdmin_Negative" time="11.636" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.OwnerFieldInSearchApi" />
+      
+</testsuite>

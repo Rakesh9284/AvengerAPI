@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="810.485">
+  <properties />
+  
+  
+            <testcase name="TC_03_GET_EditAccessControlEntitesEvents_api_check_With_EventAdmin_Positive" time="173.185" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditAccessControlEntitesEventsApi_Av_9875" />
+                <testcase name="TC_04_GET_EditAccessControlEntitesEvents_api_check_With_MediaContributor_Negative" time="150.019" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditAccessControlEntitesEventsApi_Av_9875" />
+                <testcase name="TC_01_GET_EditAccessControlEntitesEvents_api_check_With_AccountAdmin_Positive" time="165.389" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditAccessControlEntitesEventsApi_Av_9875" />
+                <testcase name="TC_02_GET_EditAccessControlEntitesEvents_api_check_With_MediaAdmin_Positive" time="197.556" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditAccessControlEntitesEventsApi_Av_9875" />
+                <testcase name="TC_05_GET_EditAccessControlEntitesEvents_api_check_With_MediaViewer_Negative" time="124.336" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditAccessControlEntitesEventsApi_Av_9875" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="76.549">
+  <properties />
+  
+  
+            <testcase name="TC_01_Deleting_All_Categories_From_UI" time="76.549" classname="com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories" />
+      
+</testsuite>

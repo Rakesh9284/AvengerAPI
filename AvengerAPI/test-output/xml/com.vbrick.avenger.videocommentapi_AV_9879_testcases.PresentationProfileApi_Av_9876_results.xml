@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="102.095">
+  <properties />
+  
+  
+            <testcase name="TC_03_GET_PresentationProfile_api_check_With_EventAdmin_Positive" time="33.460" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PresentationProfileApi_Av_9876" />
+                <testcase name="TC_02_GET_PresentationProfile_api_check_With_MediaAdmin_Positive" time="37.839" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PresentationProfileApi_Av_9876" />
+                <testcase name="TC_04_GET_PresentationProfile_api_check_With_MediaContributor_Negative" time="0.294" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PresentationProfileApi_Av_9876" />
+                <testcase name="TC_05_GET_PresentationProfile_api_check_With_MediaViewer_Negative" time="0.234" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PresentationProfileApi_Av_9876" />
+                <testcase name="TC_01_GET_PresentationProfile_api_check_With_AccountAdmin_Positive" time="30.268" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PresentationProfileApi_Av_9876" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Chrome-Browser"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="46.608">
+  <properties />
+  
+  
+            <testcase name="testing" time="46.608" classname="com.sample.testing" />
+      
+</testsuite>

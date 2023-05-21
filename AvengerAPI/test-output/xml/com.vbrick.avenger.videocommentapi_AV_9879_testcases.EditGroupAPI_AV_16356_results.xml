@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="13"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="151.478">
+  <properties />
+  
+  
+            <testcase name="TC_01_PUT_EditGroup_Api_check_With_AccountAdmin_Update_GroupName_Negative" time="0.495" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_09_PUT_EditGroup_Api_check_With_AccountAdmin_byprovidingmultiple_useridsandroleids_Positive" time="25.848" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_02_PUT_EditGroup_Api_check_With_AccountAdmin_Update_userid_Positive" time="35.889" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_03_PUT_EditGroup_Api_check_With_AccountAdmin_Update_Roleid_Positive" time="29.803" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_10_PUT_EditGroup_Api_check_With_AccountAdmin_byprovidinginvalidgroupid_Negative" time="0.341" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_12_PUT_EditGroup_Api_check_With_AccountAdmin_withoutmandatoryfield_Negative" time="0.557" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_05_PUT_EditGroup_Api_check_With_EventAdmin_assignedtoagroup_havingAAaccess_Positive" time="29.485" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_08_PUT_EditGroup_Api_check_With_MediaViewer_Update_GroupName_Negative" time="0.465" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_04_PUT_EditGroup_Api_check_With_MediaAdmin_Update_GroupName_Negative" time="0.835" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_11_PUT_EditGroup_Api_check_With_AccountAdmin_byprovidinginvaliduserid_Negative" time="0.716" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_06_PUT_EditGroup_Api_check_With_EventHost_Update_GroupName_Negative" time="0.572" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_07_PUT_EditGroup_Api_check_With_MediaContributor_Update_GroupName_Negative" time="0.582" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+                <testcase name="TC_13_PUT_EditGroup_Api_check_With_AccountAdmin_withNameUpdate_Positive" time="25.890" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356" />
+      
+</testsuite>

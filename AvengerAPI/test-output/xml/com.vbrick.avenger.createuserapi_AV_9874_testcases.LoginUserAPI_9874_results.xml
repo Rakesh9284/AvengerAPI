@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="18"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="90.208">
+  <properties />
+  
+  
+            <testcase name="TC_03_POST_UserLogin_As_AllusersInvalidPassword_Negative" time="0.099" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_03_POST_UserLogin_As_AllusersInvalidPassword_Negative" time="0.109" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_01_POST_UserLogin_As_AccountAdmin_Postive" time="14.522" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_01_POST_UserLogin_As_AccountAdmin_Postive" time="12.681" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_02_POST_UserLogin_As_AllusersInvalidUserName_Negative" time="0.160" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_03_POST_UserLogin_As_AllusersInvalidPassword_Negative" time="0.137" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_03_POST_UserLogin_As_AllusersInvalidPassword_Negative" time="0.113" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_02_POST_UserLogin_As_AllusersInvalidUserName_Negative" time="0.116" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_03_POST_UserLogin_As_AllusersInvalidPassword_Negative" time="0.207" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_02_POST_UserLogin_As_AllusersInvalidUserName_Negative" time="0.125" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_02_POST_UserLogin_As_AllusersInvalidUserName_Negative" time="0.111" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_01_POST_UserLogin_As_AccountAdmin_Postive" time="13.945" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_01_POST_UserLogin_As_AccountAdmin_Postive" time="12.991" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_01_POST_UserLogin_As_AccountAdmin_Postive" time="18.043" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_02_POST_UserLogin_As_AllusersInvalidUserName_Negative" time="0.278" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_02_POST_UserLogin_As_AllusersInvalidUserName_Negative" time="0.123" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_01_POST_UserLogin_As_AccountAdmin_Postive" time="16.201" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+                <testcase name="TC_03_POST_UserLogin_As_AllusersInvalidPassword_Negative" time="0.247" classname="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874" />
+      
+</testsuite>

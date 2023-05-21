@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="914.054">
+  <properties />
+  
+  
+            <testcase name="TC_11_GET_CustomField_api_check_With_MediaViewer_afterAssigningtoaGroup_Positive" time="113.875" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_03_GET_CustomField_api_check_With_AccountAdmin_customField_MPT_Positive" time="81.662" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_10_GET_CustomField_api_check_With_EventHost_Negative" time="0.218" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_08_GET_CustomField_api_check_With_MediaContributor_Negative" time="0.211" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_04_GET_CustomField_api_check_With_AccountAdmin_customField_MPT_Positive" time="228.248" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_06_GET_CustomField_api_check_With_MediaAdmin_Negative" time="0.274" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_09_GET_CustomField_api_check_With_MediaViewer_Negative" time="0.254" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_01_GET_CustomField_api_check_With_AccountAdmin_defaultCustomField_Positive" time="67.712" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_12_Delete_alltheexisting_customfields_Positive" time="161.898" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_05_GET_CustomField_api_check_With_AccountAdmin_customField_NMPP_Positive" time="181.595" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_02_GET_CustomField_api_check_With_AccountAdmin_customField_NMNPP_Positive" time="77.910" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+                <testcase name="TC_07_GET_CustomField_api_check_With_EventAdmin_Negative" time="0.197" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101" />
+      
+</testsuite>

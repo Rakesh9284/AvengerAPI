@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Root Account Intialization]">
+  <parameter name="sbrowser" value="Chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.vbrick.avenger.funUtil.CustomReporter"/>
+  </listeners>
+  <test name="Chrome-Browser(failed)">
+    <parameter name="sbrowser" value="Chrome"/>
+    <classes>
+      <class name="com.vbrick.apiusercreation.APIEnvSetup">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="AT_verify_userCreation_1"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.apiusercreation.APIEnvSetup -->
+    </classes>
+  </test> <!-- Chrome-Browser(failed) -->
+</suite> <!-- Failed suite [Root Account Intialization] -->

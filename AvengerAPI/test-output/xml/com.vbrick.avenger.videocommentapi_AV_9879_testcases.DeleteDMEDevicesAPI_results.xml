@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites...(failed)"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.751">
+  <properties />
+  
+  
+            <testcase name="TC_04_DeleteDMEDevice_api_check_with_MediaViewer_without_Authorization_Negative" time="1.220" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteDMEDevicesAPI" />
+                <testcase name="TC_03_DeleteDMEDevice_api_check_with_MediaViewer_Negative" time="0.531" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteDMEDevicesAPI" />
+      
+</testsuite>

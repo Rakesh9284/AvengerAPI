@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites...(failed)(failed)"
+           tests="4"
+           failures="4"
+           errors="0"
+           skipped="0"
+           time="171.615">
+  <properties />
+            <testcase name="TC_01_GET_Subscriptions_api_check_With_AccontAdmin_Positive" time="11.627" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.Get_SubscriptionsAPI_AV_28410">
+                <failure type="com.vbrick.Exception.Reasons"
+                  message="FAIL"
+              >
+<![CDATA[com.vbrick.Exception.Reasons: FAIL
+  com.vbrick.Exception.CustomReport.checkinglist(CustomReport.java:390)
+  com.vbrick.avenger.videocommentapi_AV_9879_testcases.Get_SubscriptionsAPI_AV_28410.TC_01_GET_Subscriptions_api_check_With_AccontAdmin_Positive(Get_SubscriptionsAPI_AV_28410.java:218)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_02_GET_Subscriptions_api_check_With_AccontAdmin_with_NO_Subscriptions" time="135.240" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.Get_SubscriptionsAPI_AV_28410">
+                <failure type="com.vbrick.Exception.Reasons"
+                  message="FAIL"
+              >
+<![CDATA[com.vbrick.Exception.Reasons: FAIL
+  com.vbrick.Exception.CustomReport.checkinglist(CustomReport.java:390)
+  com.vbrick.avenger.videocommentapi_AV_9879_testcases.Get_SubscriptionsAPI_AV_28410.TC_02_GET_Subscriptions_api_check_With_AccontAdmin_with_NO_Subscriptions(Get_SubscriptionsAPI_AV_28410.java:270)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_06_GET_Subscriptions_api_check_With_AccontAdmin_Positive" time="12.802" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.Get_SubscriptionsAPI_AV_28410">
+                <failure type="com.vbrick.Exception.Reasons"
+                  message="FAIL"
+              >
+<![CDATA[com.vbrick.Exception.Reasons: FAIL
+  com.vbrick.Exception.CustomReport.checkinglist(CustomReport.java:390)
+  com.vbrick.avenger.videocommentapi_AV_9879_testcases.Get_SubscriptionsAPI_AV_28410.TC_06_GET_Subscriptions_api_check_With_AccontAdmin_Positive(Get_SubscriptionsAPI_AV_28410.java:514)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_05_GET_Subscriptions_api_check_With_AccontAdmin_Positive" time="11.946" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.Get_SubscriptionsAPI_AV_28410">
+                <failure type="com.vbrick.Exception.Reasons"
+                  message="FAIL"
+              >
+<![CDATA[com.vbrick.Exception.Reasons: FAIL
+  com.vbrick.Exception.CustomReport.checkinglist(CustomReport.java:390)
+  com.vbrick.avenger.videocommentapi_AV_9879_testcases.Get_SubscriptionsAPI_AV_28410.TC_05_GET_Subscriptions_api_check_With_AccontAdmin_Positive(Get_SubscriptionsAPI_AV_28410.java:429)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

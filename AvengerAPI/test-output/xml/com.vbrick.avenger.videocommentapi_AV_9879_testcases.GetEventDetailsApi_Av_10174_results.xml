@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="972.088">
+  <properties />
+  
+  
+            <testcase name="TC_06_GET_EventDetail_api_check_With_EventHost_Positive" time="127.986" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetEventDetailsApi_Av_10174" />
+                <testcase name="TC_05_GET_EventDetail_api_check_With_MediaViewer_Negative" time="126.039" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetEventDetailsApi_Av_10174" />
+                <testcase name="TC_04_GET_EventDetail_api_check_With_MediaContributor_Negative" time="129.231" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetEventDetailsApi_Av_10174" />
+                <testcase name="TC_02_GET_EventDetail_api_check_With_MediaAdmin_Positive" time="186.073" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetEventDetailsApi_Av_10174" />
+                <testcase name="TC_03_GET_EventDetail_api_check_With_EventAdmin_Positive" time="165.311" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetEventDetailsApi_Av_10174" />
+                <testcase name="TC_01_GET_EventDetail_api_check_With_AccountAdmin_Positive" time="237.448" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetEventDetailsApi_Av_10174" />
+      
+</testsuite>

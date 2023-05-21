@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Acceptance-Part1 Execution]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.vbrick.avenger.funUtil.CustomReporter"/>
+    <listener class-name="com.vbrick.FailedTestCasesRerun.RetryListener"/>
+    <listener class-name="com.vbrick.FailedTestCasesRerun.TestListener"/>
+  </listeners>
+  <test parallel="classes" name="API TestSuites...(failed)">
+    <parameter name="sbrowser" value="Chrome"/>
+    <classes>
+      <class name="com.vbrick.apiusercreation.MediaViewer_UserCreation_API_1_40">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="AT_verify_userCreation_1to40" invocation-numbers="13"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.apiusercreation.MediaViewer_UserCreation_API_1_40 -->
+    </classes>
+  </test> <!-- API TestSuites...(failed) -->
+</suite> <!-- Failed suite [Acceptance-Part1 Execution] -->

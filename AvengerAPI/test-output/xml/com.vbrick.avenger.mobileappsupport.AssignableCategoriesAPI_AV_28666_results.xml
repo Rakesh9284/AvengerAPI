@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="938.896">
+  <properties />
+  
+  
+            <testcase name="TC_02_GET_AssignableCategories_api_check_With_AccountAdmin_Positive" time="230.869" classname="com.vbrick.avenger.mobileappsupport.AssignableCategoriesAPI_AV_28666" />
+                <testcase name="TC_03_GET_AssignableCategories_api_check_With_MediaContributor_Positive" time="233.191" classname="com.vbrick.avenger.mobileappsupport.AssignableCategoriesAPI_AV_28666" />
+                <testcase name="TC_04_GET_AssignableCategories_api_check_With_MediaViewer_Positive" time="236.356" classname="com.vbrick.avenger.mobileappsupport.AssignableCategoriesAPI_AV_28666" />
+                <testcase name="TC_01_GET_AssignableCategories_api_check_With_AccountAdmin_Positive" time="237.487" classname="com.vbrick.avenger.mobileappsupport.AssignableCategoriesAPI_AV_28666" />
+                <testcase name="TC_05_GET_AssignableCategories_api_check_Without_Authorization" time="0.993" classname="com.vbrick.avenger.mobileappsupport.AssignableCategoriesAPI_AV_28666" />
+      
+</testsuite>

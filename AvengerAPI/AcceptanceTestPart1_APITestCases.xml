@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation" parallel="classes"
+	thread-count="3" preserve-order="true">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.vbrick.avenger.funUtil.CustomReporter" />
+		<listener class-name="com.vbrick.FailedTestCasesRerun.RetryListener" />
+    	<!-- 	<listener class-name="com.vbrick.FailedTestCasesRerun.TestListener" /> -->
+
+	</listeners>
+	<test name="API TestSuites...">
+	
+	<packages>
+    <package name="com.vbrick.avenger_contentLinks"></package>
+    <package name="com.vbrick.avenger.mobileappsupport"></package>
+    <package name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases"></package>
+    <package name="com.vbrick.avenger.videocommentapi_AV_9879_testcases"></package>
+    <package name="com.vbrick.avenger_accountcountcheck"></package>
+    <package name="com.vbrick.avenger.createuserapi_AV_9874_testcases"></package>
+	</packages>
+	</test>
+</suite> 
+       

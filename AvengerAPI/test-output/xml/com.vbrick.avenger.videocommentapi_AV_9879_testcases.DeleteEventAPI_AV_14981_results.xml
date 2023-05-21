@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1370.743">
+  <properties />
+  
+  
+            <testcase name="TC_05_DELETE_DeleteEvent_api_check_With_MediaViewer_Update_Title_Positive" time="153.118" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteEventAPI_AV_14981" />
+                <testcase name="TC_01_DELETE_DeletEvent_api_check_With_AccountAdmin_Update_Title_Positive" time="238.843" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteEventAPI_AV_14981" />
+                <testcase name="TC_07_DELETE_DeleteEvent_api_check_With_EventHostuseraseventadmin_Update_Title_Positive" time="224.937" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteEventAPI_AV_14981" />
+                <testcase name="TC_03_DELETE_DeleteEvent_api_check_With_EventAdmin_Update_Title_Positive" time="243.901" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteEventAPI_AV_14981" />
+                <testcase name="TC_04_DELETE_DeleteEvent_api_check_With_MediaContributor_Update_Title_Positive" time="124.028" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteEventAPI_AV_14981" />
+                <testcase name="TC_06_DELETE_DeleteEvent_api_check_With_EventHost_Update_Title_Positive" time="157.298" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteEventAPI_AV_14981" />
+                <testcase name="TC_02_DELETE_DeleteEvent_api_check_With_MediaAdmin_Update_Title_Positive" time="228.618" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteEventAPI_AV_14981" />
+      
+</testsuite>

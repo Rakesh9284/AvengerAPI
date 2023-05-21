@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Delete_Unwanted_Data_UI" parallel="classes"
+	thread-count="2" preserve-order="true">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.vbrick.avenger.funUtil.CustomReporter" />
+		<listener class-name="com.vbrick.FailedTestCasesRerun.RetryListener" />
+    	<listener class-name="com.vbrick.FailedTestCasesRerun.TestListener" />
+
+	</listeners>
+	<test name="API TestSuites...">
+
+   <parameter name="sbrowser" value="Chrome" />
+		
+		<classes>
+			
+			<class
+				name="com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups"></class>
+				
+			<class
+				name="com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels"></class>
+				
+			<class
+				name="com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories"></class>
+				
+			<class
+				name="com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles"></class>
+				
+			<class
+				name="com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices"></class>
+				
+			</classes>	
+	</test>
+</suite> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Chrome-Browser"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="294.601">
+  <properties />
+  
+  
+            <testcase name="AT_verify_userCreation_2" time="48.945" classname="com.vbrick.apiusercreation.APIEnvSetup" />
+                <testcase name="AT_verify_userCreation_3" time="49.101" classname="com.vbrick.apiusercreation.APIEnvSetup" />
+                <testcase name="AT_verify_userCreation_1" time="49.624" classname="com.vbrick.apiusercreation.APIEnvSetup" />
+                <testcase name="AT_verify_userCreation_6" time="48.668" classname="com.vbrick.apiusercreation.APIEnvSetup" />
+                <testcase name="AT_verify_userCreation_4" time="49.305" classname="com.vbrick.apiusercreation.APIEnvSetup" />
+                <testcase name="AT_verify_userCreation_5" time="48.958" classname="com.vbrick.apiusercreation.APIEnvSetup" />
+      
+</testsuite>

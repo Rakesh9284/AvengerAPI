@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="146.711">
+  <properties />
+  
+  
+            <testcase name="TC_01_GET_GetVideosCommentsAPI_api_check_with_AccountAdmins_Positive" time="25.887" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosComments_AV_10649" />
+                <testcase name="TC_06_GET_GetVideosCommentsAPI_api_check_with_AccountAdmins_Positive" time="0.641" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosComments_AV_10649" />
+                <testcase name="TC_03_GET_GetVideosCommentsAPI_api_check_with_EventAdmins_Positive" time="29.707" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosComments_AV_10649" />
+                <testcase name="TC_08_GET_GetVideosCommentsAPI_api_check_with_AccountAdmins_Negative" time="0.812" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosComments_AV_10649" />
+                <testcase name="TC_02_GET_GetVideosCommentsAPI_api_check_with_MediaAdmins_Positive" time="37.294" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosComments_AV_10649" />
+                <testcase name="TC_07_GET_GetVideosCommentsAPI_api_check_with_AccountAdmins_InvalidVideoID_Negative" time="0.270" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosComments_AV_10649" />
+                <testcase name="TC_04_GET_GetVideosCommentsAPI_api_check_with_MediaContributor_Positive" time="26.175" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosComments_AV_10649" />
+                <testcase name="TC_05_GET_GetVideosCommentsAPI_api_check_with_Mediaviewer_Positive" time="25.925" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosComments_AV_10649" />
+      
+</testsuite>

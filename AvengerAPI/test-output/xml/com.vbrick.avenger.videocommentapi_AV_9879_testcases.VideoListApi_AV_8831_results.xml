@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites...(failed)"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="55.524">
+  <properties />
+  
+  
+            <testcase name="TC_05_GET_VideoList_api_check_VideoList_with_MediaContributor_Positive" time="23.152" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoListApi_AV_8831" />
+                <testcase name="TC_03_GET_VideoList_api_check_VideoList_with_MediaAdmin_Positive" time="32.372" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoListApi_AV_8831" />
+      
+</testsuite>

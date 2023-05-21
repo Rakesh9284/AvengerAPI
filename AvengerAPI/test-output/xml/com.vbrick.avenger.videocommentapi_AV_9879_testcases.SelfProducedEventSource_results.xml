@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites...(failed)"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.022">
+  <properties />
+  
+  
+            <testcase name="TC_03_POST_CreateEvent_with_VideoSourceType_as_WebcamandScreenShare_WithINVALIDPresenterID_AccoutAdmin_Negative" time="0.491" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SelfProducedEventSource" />
+                <testcase name="TC_02_POST_CreateEvent_with_VideoSourceType_as_WebcamandScreenShare_WithoutPresenterID_AccoutAdmin_Negative" time="0.531" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SelfProducedEventSource" />
+      
+</testsuite>

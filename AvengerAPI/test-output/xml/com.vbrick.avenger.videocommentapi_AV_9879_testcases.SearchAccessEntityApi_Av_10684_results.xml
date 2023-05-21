@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1405.852">
+  <properties />
+  
+  
+            <testcase name="TC_03_GET_SearchAccessEntity_using_group_api_check_With_EventAdmin_Positive" time="139.657" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684" />
+                <testcase name="TC_02_GET_SearchAccessEntity_using_user_api_check_With_MediaAdmin_Positive" time="195.722" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684" />
+                <testcase name="TC_06_GET_SearchAccessEntity_using_searchstring_whichdoesnotexist_withuserentity_MediaViewer_Positive" time="238.935" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684" />
+                <testcase name="TC_09_GET_SearchAccessEntity_using_searchstring_withuserentity_AccountAdmin_Positive" time="184.045" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684" />
+                <testcase name="TC_05_GET_SearchAccessEntity_using_searchstring_withgroupentity_EventHost_Positive" time="138.708" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684" />
+                <testcase name="TC_01_GET_SearchAccessEntity_withoutgiving_parameters_api_check_With_AccountAdmin_Positive" time="340.891" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684" />
+                <testcase name="TC_04_GET_SearchAccessEntity_using_searchstring_withuserentity_MediaContributor_Positive" time="167.353" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684" />
+                <testcase name="TC_08_GET_SearchAccessEntity_using_searchstring_withuser_entity_MediaContributor_Count_Positive" time="0.295" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684" />
+                <testcase name="TC_07_GET_SearchAccessEntity_using_searchstring_withgroupentity_MediaViewer_Count_Positive" time="0.246" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684" />
+      
+</testsuite>

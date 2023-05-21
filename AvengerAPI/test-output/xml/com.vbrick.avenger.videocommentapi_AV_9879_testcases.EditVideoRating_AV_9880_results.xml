@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="450.018">
+  <properties />
+  
+  
+            <testcase name="TC_06_PUT_VideoRating_AccountAdmin_Rating1_And_MediaViewer_Rating2_ValidVideo_Positive" time="43.193" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880" />
+                <testcase name="TC_02_PUT_VideoRating_api_check_AccountAdmin_Is_VideoRating_As_2_Positive" time="59.158" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880" />
+                <testcase name="TC_08_PUT_VideoRating_AccountAdmin_Rating1_And_Mediacontributor_Rating5_ValidVideo_Positive" time="31.220" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880" />
+                <testcase name="TC_01_PUT_VideoRating_api_check_AccountAdmin_Is_VideoRating_As_1_Positive" time="51.012" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880" />
+                <testcase name="TC_04_PUT_VideoRating_api_check_AccountAdmin_Is_VideoRating_As_4_Positive" time="46.812" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880" />
+                <testcase name="TC_03_PUT_VideoRating_api_check_AccountAdmin_Is_VideoRating_As_3_Positive" time="49.057" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880" />
+                <testcase name="TC_07_PUT_VideoRating_AccountAdmin_Rating1_And_MediaAdmin_Rating3_ValidVideo_Positive" time="56.605" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880" />
+                <testcase name="TC_09_PUT_VideoRating_AccountAdmin_Rating5_And_Mediacontributor_Rating4_ValidVideo_Positive" time="31.183" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880" />
+                <testcase name="TC_10_PUT_VideoRating_AccountAdmin_Rating4_And_EventAdmin_Rating4_ValidVideo_Positive" time="33.228" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880" />
+                <testcase name="TC_05_PUT_VideoRating_api_check_AccountAdmin_Is_VideoRating_As_5_Positive" time="48.550" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880" />
+      
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="14"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="327.353">
+  <properties />
+  
+  
+            <testcase name="TC_14_GET_DownloadVideo_api_check_with_MediaViewer_PublicVideo_Positive" time="8.237" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_12_GET_DownloadVideo_api_check_with_EventHost_AllUsersVideo_Positive" time="9.846" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_05_GET_DownloadVideo_api_check_with_EventHost_PrivateVideo_Positive" time="57.905" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_01_GET_DownloadVideo_api_check_with_AccoutAdmin_VideoIdValid_Positive" time="8.281" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_09_GET_Download_PrivateVideo_api_check_with_AccoutAdmin_Without_GivingAccessToken_NEGATIVE" time="1.367" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_13_GET_DownloadVideo_api_check_with_MediaContributor_VideoIdValid_Negative" time="0.795" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_11_GET_DownloadVideo_api_check_with_AccoutAdmin_AllUsersVideo_Positive" time="8.946" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_04_GET_DownloadVideo_api_check_with_MediaContributor_AllusersVideo_Positive" time="8.824" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_08_GET_DownloadVideo_api_check_with_AccountAdmin_INValidVideoId_NEGATATIVE" time="0.355" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_02_GET_DownloadVideo_api_check_with_AccoutAdmin_Without_EnableDownload_NEGATIVE" time="8.985" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_06_GET_DownloadVideo_api_check_with_EventAdmin_PublicVideo_Positive" time="3.034" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_07_GET_DownloadVideo_api_check_with_MediaViewer_Privatevideo_Positive" time="205.615" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_03_GET_DownloadVideo_api_check_with_MediaAdmin_PrivateVideo_Positive" time="4.232" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+                <testcase name="TC_10_GET_DownloadVideo_api_check_with_MediaViewer_PrivateVideo_Negative" time="0.931" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881" />
+      
+</testsuite>

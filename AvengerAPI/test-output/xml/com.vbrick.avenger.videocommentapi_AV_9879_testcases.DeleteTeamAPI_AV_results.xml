@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="204.567">
+  <properties />
+  
+  
+            <testcase name="TC_03_DELETE_DeletTeam_api_check_With_MediaContributor_Negative" time="0.619" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteTeamAPI_AV" />
+                <testcase name="TC_01_DELETE_DeletTeam_api_check_With_AccountAdmin_Positive" time="102.497" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteTeamAPI_AV" />
+                <testcase name="TC_04_DELETE_DeletTeam_api_check_With_EventAdmin_Negative" time="0.482" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteTeamAPI_AV" />
+                <testcase name="TC_05_DELETE_DeletTeam_api_check_With_MediaViewer_Negative" time="1.497" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteTeamAPI_AV" />
+                <testcase name="TC_02_DELETE_DeletTeam_api_check_With_MediaAdminPositive" time="99.472" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteTeamAPI_AV" />
+      
+</testsuite>

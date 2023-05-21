@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="803.663">
+  <properties />
+  
+  
+            <testcase name="TC_04_DELETE_DeleteVideo_api_check_DeleteVideo_with_MediaContributor_Negative" time="1.242" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_05_DELETE_DeleteVideo_api_check_DeleteVideo_with_MediaViewer_Positive" time="98.940" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_11_DELETE_DeleteVideoAPI_api_check_AccountAdmin_TeamsVideo_Positive" time="84.804" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_06_DELETE_DeleteVideoAPI_api_check_AccountAdmin_with_InvalidVideoId_Negative" time="0.235" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_08_DELETE_DeleteVideoAPI_api_check_MediaContributor_Byassigningtogrouphavingpermission_Positive" time="98.817" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_10_DELETE_DeleteVideo_api_check_DeleteVideo_with_AccoutAdmin_Positive" time="87.247" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_03_DELETE_DeleteVideo_api_check_DeleteVideo_with_EventHost_Negative" time="0.694" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_02_DELETE_DeleteVideo_api_check_DeleteVideo_with_MediaAdmin_Positive" time="86.786" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_09_DELETE_DeleteVideoAPI_api_check_MediaAdmin_AllUsersVideo_Positive" time="86.445" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_07_DELETE_DeleteVideoAPI_api_check_with_EventAdmin_ByGivingPermission_Positive" time="134.089" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_01_DELETE_DeleteVideo_api_check_DeleteVideo_with_AccoutAdmin_Positive" time="84.295" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+                <testcase name="TC_12_Delete_legalholv_video_with_accountadmin_Negative" time="40.069" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129" />
+      
+</testsuite>

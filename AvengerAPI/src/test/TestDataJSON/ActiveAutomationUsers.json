@@ -1,0 +1,7 @@
+{
+"user1"	:[	"accountadmin",	"user5lastname","accountadmin@mailinator.com","accountadmin_auto","Account Admin","English"],
+"user2"	:[	"eventadmin",	"user6lastname","eventadmin@mailinator.com","eventadmin_auto","Event Admin","English"],
+"user3"	:[	"mediaadmin",	"user7lastname","mediaadmin@mailinator.com","mediaadmin_auto","Media Admin","English"],
+"user4" :[ "mediacontributor","mediacontributorlastname","mediacontributor@mailinator.com","mediacontributor_auto","Media Contributor","English"],
+"user5" :[ "mediaviewer","mediaviewerlastname","mediaviewer@mailinator.com","mediaviewer_auto","Media Viewer","English"],
+}

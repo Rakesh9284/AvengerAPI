@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1513.728">
+  <properties />
+  
+  
+            <testcase name="TC_02_PUT_EditEvent_MediaAdmin_withmandatoryfieldsandVCaddress_Update_useridsandgroupids_Positive" time="155.450" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_07_PUT_EditEvent_MediaContributor_AllUsers_Negative" time="1.204" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_08_PUT_EditEvent_MediaViewer_private_Negative" time="74.941" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_04_PUT_EditEvent_EventAdmin_public_morethanthreeeventadmin_Negative" time="78.729" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_01_PUT_EditEvent_AccountAdmin_withmandatoryfields_Update_Titlestartdateandenddate_Positive" time="214.230" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_03_PUT_EditEvent_EventHost_public_fromallfieldstomandatoryfieldsafteredit_Update_eventadminidandPPfromVCaddress_eventadminaseventhost_Positive" time="288.572" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_06_PUT_EditEvent_MediaViewer_assigningtoeventadmingroup_privatetopublic_includepreprodforedit_Positive" time="150.986" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_11_PUT_EditEvent_AccountAdmin_withoutproviding_allmandatoryfields_title_Negative" time="83.184" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_12_PUT_EditEvent_AccountAdmin_frompublictoprivate_withvalidandinvaliduserids_Negative" time="75.843" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_09_PUT_EditEvent_MediaAdmin_publictoprivate_updatecategoriesandtags_updatefromPPtoVC_Positive" time="129.286" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_05_PUT_EditEvent_EventHost_public_Negative" time="186.914" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+                <testcase name="TC_10_PUT_EditEvent_EventAdmin_withoutproviding_allmandatoryfields_Negative" time="74.389" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878" />
+      
+</testsuite>

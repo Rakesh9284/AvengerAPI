@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="55.217">
+  <properties />
+  
+  
+            <testcase name="TC_04_Download_TranscriptionFile_OfaVideo_with_INVALID_TranscriptionFile_AccountAdmin" time="16.504" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadTranscriptionFile_AV_28324" />
+                <testcase name="TC_01_Download_TranscriptionFile_OfaVideo_AccountAdmin" time="16.221" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadTranscriptionFile_AV_28324" />
+                <testcase name="TC_03_Download_TranscriptionFile_OfaVideo_with_INVALID_VIDEOID_AccountAdmin" time="16.155" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadTranscriptionFile_AV_28324" />
+                <testcase name="TC_02_Download_TranscriptionFile_WithOnlyViewAccess_POSITIVE" time="6.337" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadTranscriptionFile_AV_28324" />
+      
+</testsuite>

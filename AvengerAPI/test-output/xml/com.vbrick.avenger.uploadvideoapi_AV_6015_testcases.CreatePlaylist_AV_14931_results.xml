@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="177.518">
+  <properties />
+  
+  
+            <testcase name="TC_06_Create_Playlist_with_Eventhost_Role" time="21.857" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.CreatePlaylist_AV_14931" />
+                <testcase name="TC_03_Create_Playlist_with_Eventadmin_Role" time="25.700" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.CreatePlaylist_AV_14931" />
+                <testcase name="TC_04_Create_Playlist_with_Mediaviewer_Role" time="30.184" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.CreatePlaylist_AV_14931" />
+                <testcase name="TC_02_Create_Playlist_with_Mediaadmin_Role" time="37.642" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.CreatePlaylist_AV_14931" />
+                <testcase name="TC_05_Create_Playlist_with_Mediacontributor_Role" time="24.932" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.CreatePlaylist_AV_14931" />
+                <testcase name="TC_01_Create_Playlist_with_Accountadmin_Role" time="37.203" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.CreatePlaylist_AV_14931" />
+      
+</testsuite>

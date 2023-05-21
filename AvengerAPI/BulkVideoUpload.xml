@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="api TESTING....." parallel="tests" -->
+ <suite name="api TESTING....."data-provider-thread-count="3" >
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	<!-- <listener class-name="com.vbrick.avenger.funUtil.CustomReporter" />
+	<listener class-name="org.imaginea.jenkins.plugins.testinprogress.testng.TestNGProgressRunListener" />
+	 --></listeners>
+
+	<test name="API TestSuites...">
+	 	<classes>
+	 
+		<!-- <class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadVideos_AV_6015"></class> -->
+		 <class name="com.vbrick.avenger.createuserapi_AV_9874_testcases.BulkUserCreation">
+		</classes>
+	</test>
+	 
+</suite> 
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites...(failed)(failed)"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="125.610">
+  <properties />
+            <testcase name="TC_04_GET_UserName_api_check_UserName_with_Eventadmin_Positive" time="125.610" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithUserNameApi_AV_9873">
+                <failure type="com.vbrick.Exception.Reasons"
+                  message="FAIL"
+              >
+<![CDATA[com.vbrick.Exception.Reasons: FAIL
+  com.vbrick.Exception.CustomReport.checkinglist(CustomReport.java:390)
+  com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithUserNameApi_AV_9873.TC_04_GET_UserName_api_check_UserName_with_Eventadmin_Positive(UserDetailsWithUserNameApi_AV_9873.java:386)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

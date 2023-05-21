@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="412.231">
+  <properties />
+  
+  
+            <testcase name="TC_03_GET_GetVideosPendingforApproval_api_check_With_AccountAdmin_And_MediaViewer_Positive" time="132.139" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosPendingforApproval" />
+                <testcase name="TC_01_GET_GetVideosPendingforApproval_api_check_With_AccountAdmin_And_EventAdmin_Positive" time="138.813" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosPendingforApproval" />
+                <testcase name="TC_02_GET_GetVideosPendingforApproval_api_check_With_MediaAdmin_And_MediaContributor_Positive" time="141.279" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosPendingforApproval" />
+      
+</testsuite>

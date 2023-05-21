@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [API Automation]" parallel="classes">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.vbrick.avenger.funUtil.CustomReporter"/>
+    <listener class-name="com.vbrick.FailedTestCasesRerun.RetryListener"/>
+  </listeners>
+  <test name="API TestSuites...(failed)" parallel="classes">
+    <classes>
+      <class name="com.vbrick.avenger_accountcountcheck.GetVideoListCountCheck">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="TC_01_GET_VideoList_Api_Account_Count_Check"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger_accountcountcheck.GetVideoListCountCheck -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoListApi_AV_8831">
+        <methods>
+          <include name="TC_03_GET_VideoList_api_check_VideoList_with_MediaAdmin_Positive"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="TC_05_GET_VideoList_api_check_VideoList_with_MediaContributor_Positive"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoListApi_AV_8831 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.ManualEnteredURLApi_AV_10719">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.ManualEnteredURLApi_AV_10719 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.ApproveVideoAPI">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.ApproveVideoAPI -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetUserRolesApi_Av_10744">
+        <methods>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetUserRolesApi_Av_10744 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.RejectVideoAPI">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.RejectVideoAPI -->
+      <class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.CreatePlaylist_AV_14931">
+        <methods>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.CreatePlaylist_AV_14931 -->
+      <class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720">
+        <methods>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadImageFile_AV_10720 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoDetails_AV_10175">
+        <methods>
+          <include name="setUP"/>
+          <include name="TC_08_GET_GetVideosDetailsAPI_api_check_with_MediaAdmin_asteamcontributor_Positive"/>
+          <include name="browserClose"/>
+          <include name="TC_05_GET_GetTeamsVideoDetailsAPI_api_check_with_MediaContributor_Negative"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoDetails_AV_10175 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PresentationProfileApi_Av_9876">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.PresentationProfileApi_Av_9876 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithUserIDApi_AV_9873">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_02_GET_UserDetail_api_check_UserDetail_with_MediaAdmin_Positive"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithUserIDApi_AV_9873 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoStatus_AV_11232_APITestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoStatus_AV_11232_APITestCase -->
+      <class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.EditVideos_AV_10124">
+        <methods>
+          <include name="TC_06_PUT_EditVideosAPI_AV10124_ValidData_With_VideoFeatures_CommentsDiableToEnable"/>
+          <include name="TC_11_PUT_EditVideosAPI_AV10124_ValidData_With_VidoeACcessControlFromPublicToALLUSER"/>
+          <include name="TC_18_PUT_EditVideosAPI_AV10124_editPublishDate_MediaContributor_AV18898"/>
+          <include name="TC_05_PUT_EditVideosAPI_AV10124_ValidData_With_VideoFeatures_CommentsEnableToDisbale"/>
+          <include name="TC_20_PUT_EditVideosAPI_AV10124_editRatingsfromenabletodisable_MediaAdmin_AV18898"/>
+          <include name="TC_24_PUT_EditVideosAPI_AV10124_ValidData_With_EditAccesscontrol_AV18898"/>
+          <include name="TC_13_PUT_EditVideos_AV10124_ValidData_With_VidoeACcessControlPrivateToPublic"/>
+          <include name="TC_02_PUT_EditVideosAPI_AV10124_ValidData_With_EditVideoDescription"/>
+          <include name="TC_16_PUT_EditVideosAPI_AV10124_fromPrivatetoPublic_EditAccesscontrol_MediaAdmin_AV18898"/>
+          <include name="TC_12_PUT_EditVideosAPI_AV10124_ValidData_With_VidoeACcessControlAsPublicToPrivate"/>
+          <include name="TC_21_PUT_EditVideosAPI_AV10124_editDownloadsfromdisabletoenable_MediaContributor_mandatoryfields_Positive"/>
+          <include name="TC_19_PUT_EditVideosAPI_AV10124_editCommentsfromdisabletoenable_AccountAdmin_AV18898"/>
+          <include name="browserClose"/>
+          <include name="TC_09_PUT_EditVideosAPI_AV10124_ValidData_With_VidoeFeatures_RatingsEnableToDisable"/>
+          <include name="TC_22_PUT_EditVideosAPI_AV10124_ValidData_With_EditAccesscontrol_AV18898"/>
+          <include name="TC_01_PUT_EditVideosAPI_AV10124_ValidData_With_EditVideoTitle"/>
+          <include name="TC_10_PUT_EditVideosAPI_AV10124_ValidData_With_VidoeFeatures_RatingsDiableToEnable"/>
+          <include name="beforeClass"/>
+          <include name="TC_07_PUT_EditVideosAPI_AV10124_ValidData_With_VidoeFeatures_DownloadEnableToDisable"/>
+          <include name="TC_03_PUT_EditVideosAPI_AV10124_ValidData_With_VideoStatusTrueToFalse"/>
+          <include name="TC_04_PUT_EditVideosAPI_AV10124_ValidData_With_VideoStatusFalseToTrue"/>
+          <include name="TC_14_PUT_EditVideosAPI_AV10124_ValidData_With_MutipleTags_EditTheTag"/>
+          <include name="TC_15_PUT_EditVideosAPI_AV10124_mandatoryfields_EditAccesscontrol_fromPublictoPrivate_AV18898"/>
+          <include name="TC_23_PUT_EditVideosAPI_AV10124_ValidData_With_EditAccesscontrol_AV18898"/>
+          <include name="TC_17_PUT_EditVideosAPI_AV10124_editDescription_MediaAdmin_AV18898"/>
+          <include name="TC_08_PUT_EditdVideosAPI_AV10124_ValidData_With_VidoeFeatures_DownloadDisableToEnable"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.EditVideos_AV_10124 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosPendingforApproval">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosPendingforApproval -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UploadBackgroundImagetoWebcast_AV_18674">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.UploadBackgroundImagetoWebcast_AV_18674 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoSearchApi_AV_6016">
+        <methods>
+          <include name="setUP"/>
+          <include name="TC_12_GET_SearchVideo_api_check_SearchVideo_with_TimeSortWithasc_AccoutAdmin_Positive"/>
+          <include name="browserClose"/>
+          <include name="TC_13_GET_SearchVideo_api_check_SearchVideo_with_TimeSortWithdesc_AccoutAdmin_Positive"/>
+          <include name="TC_15_GET_SearchVideo_api_check_SearchVideo_with_VideoSortWithDesc_AccoutAdmin_Positive"/>
+          <include name="beforeClass"/>
+          <include name="TC_14_GET_SearchVideo_api_check_SearchVideo_with_VideoSortWithAsc_AccoutAdmin_Positives"/>
+          <include name="TC_10_GET_SearchVideo_api_check_UploaderSort_with_ASC_Positive"/>
+          <include name="TC_11_GET_SearchVideo_api_check_UploaderSort_with_Desc_Positive"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoSearchApi_AV_6016 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoPlayBackURLAPI_AV_6035 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetApprovaltemplatesAPI">
+        <methods>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetApprovaltemplatesAPI -->
+      <class name="com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.createuserapi_AV_9874_testcases.LoginUserAPI_9874 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteGroupAPI_AV16357">
+        <methods>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteGroupAPI_AV16357 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditTeamAPI_AV">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditTeamAPI_AV -->
+      <class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.VideoAccessControlService_AV_10176">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.VideoAccessControlService_AV_10176 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteBackgroundImage_AV18674">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteBackgroundImage_AV18674 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserVideoCompletation_AV_9131">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserVideoCompletation_AV_9131 -->
+      <class name="com.vbrick.avenger.mobileappsupport.AddPermissions_GetVideoDetails_GetChannels_GetCategories_AV_28487">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.mobileappsupport.AddPermissions_GetVideoDetails_GetChannels_GetCategories_AV_28487 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetEventStatus">
+        <methods>
+          <include name="setUP"/>
+          <include name="TC_02_GET_EventStatus_Inprogress_withpreproductionEnabled_AccoutAdmin_Positive"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetEventStatus -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoCount_AV_28357">
+        <methods>
+          <include name="browserClose"/>
+          <include name="TC_01_Get_VideoCount_With_GetChannelForUser_api_check_with_AccountAdmins_Positive" invocation-numbers="0"/>
+          <include name="TC_03_Get_VideoCount_With_GetChannelForUser_api_check_with_MediaViewer_HavingOnlyViewAccess_Positive" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="TC_02_Get_VideoCount_For_MultipleVideos_With_GetChannelForUser_api_check_with_AccountAdmins_Positive" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoCount_AV_28357 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UpdateVideoComments">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.UpdateVideoComments -->
+      <class name="com.vbrick.avenger.mobileappsupport.CheckForUploadRightsInUserAPI_AV_28488">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.mobileappsupport.CheckForUploadRightsInUserAPI_AV_28488 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetCategoryListApi_Av_9656">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetCategoryListApi_Av_9656 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateGroupApi_AV_16355">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateGroupApi_AV_16355 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadTranscriptionFile_AV_28324">
+        <methods>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadTranscriptionFile_AV_28324 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoTranscriptionFiles">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_01_GET_TranscriptionFile_OfaVideo_AccountAdmin"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="TC_05_GET_Multiple_TranscriptionFile_AccountAdmin"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoTranscriptionFiles -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteCategory">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteCategory -->
+      <class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadVideos_AV_6015">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="TC_41_UploadVideos_Teams_AccountAdmin_onevalidandoneinvalidteam_Positive" invocation-numbers="0"/>
+          <include name="TC_43_UploadVideo_Public_MediaContributor_withmandatecustomfieldvalue_valuenotgiven_Positive" invocation-numbers="0"/>
+          <include name="TC_16_UploadVideos_MediaAdmin_With_VidoeACcessControlAsTeams_bygivingatleastoneteam_mediaadminasteamcontributor_Positive" invocation-numbers="0"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadVideos_AV_6015 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetEventDetailsApi_Av_10174">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetEventDetailsApi_Av_10174 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SubmitVideosComments_AV_9879">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.SubmitVideosComments_AV_9879 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SendVideoforapprovalAPI">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.SendVideoforapprovalAPI -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.Get_SubscriptionsAPI_AV_28410">
+        <methods>
+          <include name="TC_02_GET_Subscriptions_api_check_With_AccontAdmin_with_NO_Subscriptions" invocation-numbers="0"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="TC_03_GET_Subscriptions_api_check_When_Not_Authenticated_NEGATIVE" invocation-numbers="0"/>
+          <include name="TC_01_GET_Subscriptions_api_check_With_AccontAdmin_Positive" invocation-numbers="0"/>
+          <include name="TC_06_GET_Subscriptions_api_check_With_AccontAdmin_Positive" invocation-numbers="0"/>
+          <include name="TC_05_GET_Subscriptions_api_check_With_AccontAdmin_Positive" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.Get_SubscriptionsAPI_AV_28410 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.OwnerFieldInSearchApi">
+        <methods>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.OwnerFieldInSearchApi -->
+      <class name="com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.createuserapi_AV_9874_testcases.CreateUserAPI_AV_9874 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390 -->
+      <class name="com.vbrick.avenger.mobileappsupport.SearchSuggestionsAPI_AV_27524">
+        <methods>
+          <include name="TC_01_POST_SearchSuggestions_api"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="TC_02_POST_SearchSuggestions_api_Verifying_with_UpperCase"/>
+          <include name="beforeClass"/>
+          <include name="TC_06_POST_SearchSuggestions_api_Verifying_when_User_Not_Authenticated"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.mobileappsupport.SearchSuggestionsAPI_AV_27524 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EndEvent">
+        <methods>
+          <include name="setUP"/>
+          <include name="TC_06_EndEventAPI_with_AccountAdmin_Positive"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.EndEvent -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101">
+        <methods>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.CustomField_Av_11101 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateCategoryApi_AV_10647">
+        <methods>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateCategoryApi_AV_10647 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.MigratVideoApi_AV_9128 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881">
+        <methods>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DownloadVideo_AV_9881 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SelfProducedEventSource">
+        <methods>
+          <include name="TC_03_POST_CreateEvent_with_VideoSourceType_as_WebcamandScreenShare_WithINVALIDPresenterID_AccoutAdmin_Negative"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="TC_02_POST_CreateEvent_with_VideoSourceType_as_WebcamandScreenShare_WithoutPresenterID_AccoutAdmin_Negative"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.SelfProducedEventSource -->
+      <class name="com.vbrick.avenger.mobileappsupport.AssignableCategoriesAPI_AV_28666">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.mobileappsupport.AssignableCategoriesAPI_AV_28666 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteTeamAPI_AV">
+        <methods>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteTeamAPI_AV -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DMEdeviceslistAPI_Av_9655">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DMEdeviceslistAPI_Av_9655 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteEventAPI_AV_14981">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteEventAPI_AV_14981 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithUserNameApi_AV_9873">
+        <methods>
+          <include name="browserClose"/>
+          <include name="TC_04_GET_UserName_api_check_UserName_with_Eventadmin_Positive"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithUserNameApi_AV_9873 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetTeamsApi_AV_">
+        <methods>
+          <include name="TC_10_GET_TeamList_api_check_With_AccountAdmin_Positive" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetTeamsApi_AV_ -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithEmailApi_AV_9873">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.UserDetailsWithEmailApi_AV_9873 -->
+      <class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadSupplementalFile_AV_10721">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadSupplementalFile_AV_10721 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateTeamApi_AV -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateDME_Device">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateDME_Device -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosComments_AV_10649">
+        <methods>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideosComments_AV_10649 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EventListApi_Av_11123">
+        <methods>
+          <include name="TC_01_GET_EventList_api_check_With_AccountAdmin_Positive" invocation-numbers="0"/>
+          <include name="TC_04_GET_EventList_api_check_With_MediaViewer_Positive" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="TC_02_GET_EventList_api_check_With_MediaAdmin_Positive" invocation-numbers="0"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.EventListApi_Av_11123 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoTranscriptionFile">
+        <methods>
+          <include name="setUP"/>
+          <include name="TC_10_Delete_SingleTranscriptionFile_WithEditAccess"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoTranscriptionFile -->
+      <class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadTranscriptionFile_AV_10646">
+        <methods>
+          <include name="TC_08_UploadTranscriptionFiles_AV10646_Uploading_TranscriptionContent_AccountAdmin_ByOverRidingAnExistingFile" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadTranscriptionFile_AV_10646 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditEventApi_Av_9878 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoComments">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="TC_07_Delete_MultipleVideoCommentsAPI_api_check_with_AccountAdmins_Positive" invocation-numbers="0"/>
+          <include name="TC_06_DELETE_DeleteVideosCommentsAPI_api_Deleting_a_Childcomment_from_a_video_AccountAdmins_Positive" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoComments -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.StartWebCast">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_08_StartEventAPI_with_EventHost_Positive"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.StartWebCast -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteDMEDevicesAPI">
+        <methods>
+          <include name="TC_04_DeleteDMEDevice_api_check_with_MediaViewer_without_Authorization_Negative" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="TC_03_DeleteDMEDevice_api_check_with_MediaViewer_Negative" invocation-numbers="0"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteDMEDevicesAPI -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteSupplementalFile">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_05_Delete_Multiple_SupplementalFiles_With_IDs_AccountAdmin"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteSupplementalFile -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoThumbnail_AV_28062">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_06_GET_GetVideoThumbnailAPI_api_check_when_Sharing_of_metadata_is_Checked_at_Account_Level_Positive"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoThumbnail_AV_28062 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356">
+        <methods>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditGroupAPI_AV_16356 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditAccessControlEntitesEventsApi_Av_9875">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditAccessControlEntitesEventsApi_Av_9875 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoApi_AV_9129 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.SearchAccessEntityApi_Av_10684 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetWebcastQandAReport_AV26267">
+        <methods>
+          <include name="TC_02_GET_EventDetail_api_check_With_AccountAdmin_When_No_Response_ForTheQuestion_Positive" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_GET_EventDetail_api_check_With_AccountAdmin_Positive" invocation-numbers="0"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetWebcastQandAReport_AV26267 -->
+      <class name="com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.videocommentapi_AV_9879_testcases.EditVideoRating_AV_9880 -->
+      <class name="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.DeletePlaylistAPI_AV14933">
+        <methods>
+          <include name="browserClose"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.DeletePlaylistAPI_AV14933 -->
+    </classes>
+  </test> <!-- API TestSuites...(failed) -->
+</suite> <!-- Failed suite [API Automation] -->

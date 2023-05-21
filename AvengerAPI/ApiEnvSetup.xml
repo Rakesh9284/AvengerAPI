@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Acceptance-Part1 Execution" parallel="classes"
+	thread-count="5" preserve-order="true">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.vbrick.avenger.funUtil.CustomReporter" />
+		<listener class-name="com.vbrick.FailedTestCasesRerun.RetryListener" />
+		<listener class-name="com.vbrick.FailedTestCasesRerun.TestListener" />
+
+	</listeners>
+	<test name="API TestSuites...">
+ 
+		<parameter name="sbrowser" value="Chrome" />
+		<classes>
+		        <!-- 	<class name="com.vbrick.apiusercreation.AccountAdmin_UserCreation_API_1_40"> 
+			</class> 
+			
+  		<class name="com.vbrick.apiusercreation.MediaAdmin_UserCreation_API_1_40">
+			</class> 
+			
+		<class name="com.vbrick.apiusercreation.EventAdmin_UserCreation_API_1_40">
+			</class> 
+			
+			 <class name="com.vbrick.apiusercreation.EventHost_UserCreation_API_1_40">
+			</class>  
+			
+		  <class name="com.vbrick.apiusercreation.MediaContributor_UserCreation_API_1_40">
+			</class> -->
+			
+				  <class name="com.vbrick.apiusercreation.MediaViewer_UserCreation_API_1_40">
+			</class> 
+			</classes>
+	</test>
+</suite> 

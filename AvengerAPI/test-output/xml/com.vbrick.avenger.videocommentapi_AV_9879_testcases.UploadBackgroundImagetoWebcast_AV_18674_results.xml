@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="581.031">
+  <properties />
+  
+  
+            <testcase name="TC_01_UploadBackgroundImage_toaPublicWebcast_AccountAdmin_Positive" time="138.823" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UploadBackgroundImagetoWebcast_AV_18674" />
+                <testcase name="TC_02_UpdateBackgroundImage_toaPrivateWebcast_EventtAdmin_Positive" time="134.459" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UploadBackgroundImagetoWebcast_AV_18674" />
+                <testcase name="TC_07_UploadBackgroundImage_toaPublicWebcast_MediaViewer_Negative" time="94.104" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UploadBackgroundImagetoWebcast_AV_18674" />
+                <testcase name="TC_06_UploadBackgroundImage_toaAllUsersWebcast_EventHostaseventadmin_withVcSippAddress_Positive" time="70.264" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UploadBackgroundImagetoWebcast_AV_18674" />
+                <testcase name="TC_03_UploadBackgroundImage_toaPublicWebcast_MediaContributor_Negative" time="0.616" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UploadBackgroundImagetoWebcast_AV_18674" />
+                <testcase name="TC_04_UploadBackgroundImage_toaPublicWebcast_invalidfileformat_AccountAdmin_Negative" time="72.666" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UploadBackgroundImagetoWebcast_AV_18674" />
+                <testcase name="TC_05_UploadBackgroundImage_toaPublicWebcast_withinvalidwebcastid_Negative" time="70.099" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.UploadBackgroundImagetoWebcast_AV_18674" />
+      
+</testsuite>

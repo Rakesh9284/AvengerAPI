@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1678.740">
+  <properties />
+  
+  
+            <testcase name="TC_04_GET_UnRead_Notifications_EventHost" time="156.800" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_09_GET_All_Notifications_MediaContributor" time="145.215" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_05_GET_UnRead_Notifications_EventAdmin" time="163.121" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_07_GET_All_Notifications_AccountAdmin" time="98.780" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_01_GET_UnRead_Notifications_AccountAdmin" time="96.508" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_02_GET_UnRead_Notifications_MediaViewer" time="142.556" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_06_GET_UnRead_Notifications_MeidaAdmin" time="142.593" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_12_GET_All_Notifications_EventAdmin" time="150.454" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_11_GET_All_Notifications_MediaAdmin" time="147.057" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_08_GET_All_Notifications_MediaViewer" time="146.500" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_03_GET_UnRead_Notifications_MediaContributor" time="145.398" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+                <testcase name="TC_10_GET_All_Notifications_EventHost" time="143.758" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetNotificationsAPI_AV_28389" />
+      
+</testsuite>

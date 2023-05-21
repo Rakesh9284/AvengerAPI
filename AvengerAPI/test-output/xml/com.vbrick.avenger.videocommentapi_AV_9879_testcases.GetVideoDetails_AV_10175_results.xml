@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites...(failed)(failed)"
+           tests="2"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="319.149">
+  <properties />
+            <testcase name="TC_08_GET_GetVideosDetailsAPI_api_check_with_MediaAdmin_asteamcontributor_Positive" time="318.291" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoDetails_AV_10175">
+                <failure type="com.vbrick.Exception.ReasonsTimeOutException"
+                  message="
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+
+Driver info: driver.version: unknown"
+              >
+<![CDATA[
+  com.vbrick.avenger.funUtil.WaitForElements.waitForElementPresent(WaitForElements.java:140)
+  com.vbrick.avenger.funUtil.WebElements.getText(WebElements.java:1012)
+  com.vbrick.avenger.pageobjects.AvengerVideoCommentsPage.verify_Label1(AvengerVideoCommentsPage.java:1067)
+  com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoDetails_AV_10175.TC_08_GET_GetVideosDetailsAPI_api_check_with_MediaAdmin_asteamcontributor_Positive(GetVideoDetails_AV_10175.java:640)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_05_GET_GetTeamsVideoDetailsAPI_api_check_with_MediaContributor_Negative" time="0.858" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoDetails_AV_10175">
+                <failure type="java.lang.AssertionError"
+                  message="expected [401] but found [200]"
+              >
+<![CDATA[java.lang.AssertionError: expected [401] but found [200]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertEquals(Assert.java:125)
+  org.testng.Assert.assertEquals(Assert.java:178)
+  org.testng.Assert.assertEquals(Assert.java:188)
+  com.vbricks.avenger.api.verifications.AssertionAPIResponse.verifyAssert_httpCode(AssertionAPIResponse.java:15)
+  com.vbrick.avenger.videocommentapi_AV_9879_testcases.GetVideoDetails_AV_10175.TC_05_GET_GetTeamsVideoDetailsAPI_api_check_with_MediaContributor_Negative(GetVideoDetails_AV_10175.java:440)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

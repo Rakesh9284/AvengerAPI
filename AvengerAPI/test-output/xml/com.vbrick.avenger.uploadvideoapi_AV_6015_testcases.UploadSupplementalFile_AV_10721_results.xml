@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="345.967">
+  <properties />
+  
+  
+            <testcase name="TC_07_UploadSupplementalFiles_AV10721_Uploading_SupplementalContent_Mediaviewer_AfterProvidingEditVideoPermission" time="99.092" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadSupplementalFile_AV_10721" />
+                <testcase name="TC_06_UploadSupplementalFiles_AV10721_Uploading_SupplementalContent_EventAdmin_AfterProvidingEditVideoPermission" time="102.301" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadSupplementalFile_AV_10721" />
+                <testcase name="TC_05_UploadSupplementalFiles_AV10721_Uploading_SupplementalContent_Mediaviewer" time="0.962" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadSupplementalFile_AV_10721" />
+                <testcase name="TC_01_UploadSupplementalFiles_AV10721_Uploading_SupplementalContent_AccountAdmin" time="44.773" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadSupplementalFile_AV_10721" />
+                <testcase name="TC_03_UploadSupplementalFiles_AV10721_Uploading_SupplementalContent_MediaContributor" time="46.875" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadSupplementalFile_AV_10721" />
+                <testcase name="TC_04_UploadSupplementalFiles_AV10721_Uploading_SupplementalContent_EventAdmin" time="0.664" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadSupplementalFile_AV_10721" />
+                <testcase name="TC_08_UploadSupplementalFiles_AV10721_Uploading_SupplementalContent_AccountAdmin_InValidFileFormat" time="1.471" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadSupplementalFile_AV_10721" />
+                <testcase name="TC_02_UploadSupplementalFiles_AV10721_Uploading_SupplementalContent_Mediaadmin" time="49.829" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.UploadSupplementalFile_AV_10721" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites...(failed)"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="122.601">
+  <properties />
+  
+  
+            <testcase name="TC_08_StartEventAPI_with_EventHost_Positive" time="122.601" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.StartWebCast" />
+      
+</testsuite>

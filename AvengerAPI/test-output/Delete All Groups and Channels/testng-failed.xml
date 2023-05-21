@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Delete All Groups and Channels]" parallel="classes">
+  <parameter name="sbrowser" value="Chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.vbrick.avenger.funUtil.CustomReporter"/>
+    <listener class-name="com.vbrick.FailedTestCasesRerun.RetryListener"/>
+    <listener class-name="com.vbrick.FailedTestCasesRerun.TestListener"/>
+  </listeners>
+  <test name="API TestSuites...(failed)" parallel="classes">
+    <parameter name="sbrowser" value="Chrome"/>
+    <classes>
+      <class name="com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllGroups">
+        <methods>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllGroups -->
+      <class name="com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllChannels">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllChannels -->
+      <class name="com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories">
+        <methods>
+          <include name="TC_01_Deleting_All_Categories_From_UI" invocation-numbers="0 0"/>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.deleteallgroupsandchannels.DeleteAllCategories -->
+    </classes>
+  </test> <!-- API TestSuites...(failed) -->
+</suite> <!-- Failed suite [Delete All Groups and Channels] -->

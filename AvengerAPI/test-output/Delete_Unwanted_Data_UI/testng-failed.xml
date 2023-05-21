@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Delete_Unwanted_Data_UI]" parallel="classes">
+  <parameter name="sbrowser" value="Chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.vbrick.avenger.funUtil.CustomReporter"/>
+    <listener class-name="com.vbrick.FailedTestCasesRerun.RetryListener"/>
+    <listener class-name="com.vbrick.FailedTestCasesRerun.TestListener"/>
+  </listeners>
+  <test name="API TestSuites...(failed)" parallel="classes">
+    <parameter name="sbrowser" value="Chrome"/>
+    <classes>
+      <class name="com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="TC_01_Deleting_All_Groups_From_UI"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllGroups -->
+      <class name="com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_01_Deleting_All_Channels_From_UI"/>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllChannels -->
+      <class name="com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories">
+        <methods>
+          <include name="setUP"/>
+          <include name="browserClose"/>
+          <include name="TC_01_Deleting_All_Categories_From_UI"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllCategories -->
+      <class name="com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices">
+        <methods>
+          <include name="TC_01_Deleting_All_Devices_From_UI"/>
+          <include name="beforeClass"/>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllDevices -->
+      <class name="com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setUP"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_Deleting_All_PresentationProfiles_From_UI"/>
+        </methods>
+      </class> <!-- com.vbrick.avenger.delete_unwanted_data_UI.DeleteAllPresentationProfiles -->
+    </classes>
+  </test> <!-- API TestSuites...(failed) -->
+</suite> <!-- Failed suite [Delete_Unwanted_Data_UI] -->

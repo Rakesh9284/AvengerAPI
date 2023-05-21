@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="240.352">
+  <properties />
+  
+  
+            <testcase name="TC_05_VideoAccessControl_AV10176_api_AccessControl_To_MediaViewer" time="53.469" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.VideoAccessControlService_AV_10176" />
+                <testcase name="TC_04_VideoAccessControl_AV10176_api_AccessControl_To_MediaContributor" time="62.720" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.VideoAccessControlService_AV_10176" />
+                <testcase name="TC_01_VideoAccessControl_AV10176_api_AccessControl_To_AccountAdmin" time="52.870" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.VideoAccessControlService_AV_10176" />
+                <testcase name="TC_02_VideoAccessControl_AV10176_api_AccessControl_To_MediaAdmin" time="45.176" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.VideoAccessControlService_AV_10176" />
+                <testcase name="TC_03_VideoAccessControl_AV10176_api_AccessControl_To_EventAdmin" time="26.117" classname="com.vbrick.avenger.uploadvideoapi_AV_6015_testcases.VideoAccessControlService_AV_10176" />
+      
+</testsuite>

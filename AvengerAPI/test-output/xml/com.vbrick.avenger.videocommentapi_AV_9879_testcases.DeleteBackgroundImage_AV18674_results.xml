@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="765.240">
+  <properties />
+  
+  
+            <testcase name="TC_07_Delete_backgroundimage_ofapublicwebcast_with_eventHost_Positive" time="137.593" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteBackgroundImage_AV18674" />
+                <testcase name="TC_08_Delete_backgroundimage_ofapublicwebcast_with_accoutAdmin_bygivinginvalideventid_Negative" time="67.506" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteBackgroundImage_AV18674" />
+                <testcase name="TC_06_Delete_backgroundimage_ofapublicwebcast_with_mediaViewer_Positive" time="71.709" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteBackgroundImage_AV18674" />
+                <testcase name="TC_04_Delete_backgroundimage_ofapublicwebcast_with_mediaContributor_Positive" time="75.532" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteBackgroundImage_AV18674" />
+                <testcase name="TC_01_Delete_backgroundimage_ofapublicwebcast_with_accoutAdmin_Positive" time="140.681" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteBackgroundImage_AV18674" />
+                <testcase name="TC_05_Delete_backgroundimage_ofapublicwebcast_with_eventHost_Positive" time="68.700" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteBackgroundImage_AV18674" />
+                <testcase name="TC_02_Delete_backgroundimage_ofaprivatewebcast_with_eventadmin_Positive" time="133.761" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteBackgroundImage_AV18674" />
+                <testcase name="TC_03_Delete_backgroundimage_ofaAllUserswebcast_with_MediaAdmin_Positive" time="69.758" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteBackgroundImage_AV18674" />
+      
+</testsuite>

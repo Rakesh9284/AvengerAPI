@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1252.979">
+  <properties />
+  
+  
+            <testcase name="TC_02_PUT_Read_AllNotifications_MediaViewer" time="63.961" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_05_PUT_Read_AllNotifications_EventAdmin" time="70.167" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_10_PUT_Read_Specific_Notifications_EventHost" time="142.440" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_11_PUT_Read_Specific_Notifications_MediaAdmin" time="142.447" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_04_PUT_Read_AllNotifications_EventHost" time="67.121" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_09_PUT_Read_Specific_Notifications_MediaContributor" time="141.739" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_12_PUT_Read_Specific_Notifications_EventAdmin" time="143.010" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_01_PUT_Read_AllNotifications_AccountAdmin" time="61.941" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_03_PUT_Read_AllNotifications_MediaContributor" time="66.065" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_06_PUT_Read_AllNotifications_MediaAdmin" time="66.361" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_07_PUT_Read_Specific_Notifications_AccountAdmin" time="141.960" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+                <testcase name="TC_08_PUT_Read_Specific_Notifications_MediaViewer" time="145.767" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.PutNotificationActions_AV_28390" />
+      
+</testsuite>

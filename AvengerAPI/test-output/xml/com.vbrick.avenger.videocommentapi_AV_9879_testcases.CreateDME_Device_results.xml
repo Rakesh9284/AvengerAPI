@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.190">
+  <properties />
+  
+  
+            <testcase name="TC_03_AddDMEDevice_api_check_with_MediaViewer_Negative" time="0.232" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateDME_Device" />
+                <testcase name="TC_04_AddDMEDevice_api_check_with_MediaViewer_without_Authorization_Negative" time="0.201" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateDME_Device" />
+                <testcase name="TC_02_AddDMEDevice_api_check_with_AccountAdmin_ByGivingInvalid_MacAddress_Negative" time="0.313" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateDME_Device" />
+                <testcase name="TC_01_AddDMEDevice_api_check_with_AccountAdmin_Positive" time="0.444" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateDME_Device" />
+      
+</testsuite>

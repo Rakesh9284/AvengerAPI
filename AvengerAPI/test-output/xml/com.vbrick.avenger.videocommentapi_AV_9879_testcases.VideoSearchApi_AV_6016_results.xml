@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites...(failed)(failed)"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="203.614">
+  <properties />
+  
+  
+            <testcase name="TC_13_GET_SearchVideo_api_check_SearchVideo_with_TimeSortWithdesc_AccoutAdmin_Positive" time="52.645" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoSearchApi_AV_6016" />
+                <testcase name="TC_14_GET_SearchVideo_api_check_SearchVideo_with_VideoSortWithAsc_AccoutAdmin_Positives" time="46.155" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoSearchApi_AV_6016" />
+                <testcase name="TC_15_GET_SearchVideo_api_check_SearchVideo_with_VideoSortWithDesc_AccoutAdmin_Positive" time="58.848" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoSearchApi_AV_6016" />
+                <testcase name="TC_12_GET_SearchVideo_api_check_SearchVideo_with_TimeSortWithasc_AccoutAdmin_Positive" time="45.966" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.VideoSearchApi_AV_6016" />
+      
+</testsuite>

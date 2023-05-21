@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="421.279">
+  <properties />
+  
+  
+            <testcase name="TC_04_PUT_SendVideoforApproval_api_check_With_EventAdmin_Negative" time="71.539" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SendVideoforapprovalAPI" />
+                <testcase name="TC_01_PUT_SendVideoforApproval_api_check_With_AccountAdmin_Positive" time="88.922" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SendVideoforapprovalAPI" />
+                <testcase name="TC_05_PUT_SendVideoforApproval_api_check_With_MediaViewer_Negative" time="82.671" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SendVideoforapprovalAPI" />
+                <testcase name="TC_02_PUT_SendVideoforApproval_api_check_With_Mediaadmin_Positive" time="86.648" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SendVideoforapprovalAPI" />
+                <testcase name="TC_03_PUT_SendVideoforApproval_api_check_With_MediaContributor_Positive" time="91.499" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.SendVideoforapprovalAPI" />
+      
+</testsuite>

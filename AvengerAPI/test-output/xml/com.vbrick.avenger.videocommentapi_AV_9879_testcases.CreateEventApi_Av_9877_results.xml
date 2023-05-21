@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites..."
+           tests="20"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2174.384">
+  <properties />
+  
+  
+            <testcase name="TC_07_POST_CreateEvent_Public_withmorethanthreeeventhost_AccoutAdmin_Negative" time="80.578" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_04_POST_CreateEvent_witheventadmin_Private_withallthefields_Positive" time="191.905" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_13_POST_CreateEvent_withmediaadmin_AllUsers_withallthefieldsexceptforrpreprod_Unlisted_Positive" time="167.136" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_01_POST_CreateEvent_withonly_mandatoryfields_Public_withmultipleeventhost_AccoutAdmin_Positive" time="156.545" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_12_POST_CreateEvent_Public_with_AccountAdmin_bygivingshortcutname_whichisalreadyinuse_Negative" time="92.980" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_10_POST_CreateEvent_Public_with_AccountAdmin_wihtoutgiving_mandatoryfield_accesscontrol_Negative" time="73.311" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_08_POST_CreateEvent_Public_with_AccountAdmin_wihtoutgiving_mandatoryfield_title_Negative" time="74.801" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_16_POST_CreateEvent_Public_with_MediaViewer_Negative" time="91.341" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_05_POST_CreateEvent_accountadmin_Public_withonlymandatoryfields_eventhostaseventadmin_withvcsipaddress_Positive" time="67.286" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_02_POST_CreateEvent_api_check_CreateEvent_Private_with_EventHost_withonlymandatoryfields_Positive" time="174.399" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_17_POST_CreateEvent_with_lobbytime_greaterthan_preproductiontime_Negative" time="180.790" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_06_POST_CreateEvent_Public_with_EventAdmin_MediaContributor_as_EventAdmin_Negative" time="106.087" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_03_POST_CreateEvent_withmediaadmin_AllUsers_withonlymandatoryfields_Positive" time="65.926" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_11_POST_CreateEvent_Public_with_AccountAdmin_bygiving_invalid_presentationprofileid_Negative" time="0.467" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_14_POST_CreateEvent_Public_with_MediaViewer_byassigningtoeventadmingroup_nolobbytime_Positive" time="326.087" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_19_POST_Create2Events_with_sameshortcut_onewithPP_andonewithVC_withoverlaptimes_Negative" time="123.089" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_20_POST_CreateEvent_withinvalidformat_forVCSipaddress_Negative" time="0.418" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_09_POST_CreateEvent_Public_with_AccountAdmin_wihtoutgiving_mandatoryfield_eventadmin_Negative" time="0.688" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_18_POST_Create2Events_with_differentshortcut_samePP_withoverlaptimes_Negative" time="131.241" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+                <testcase name="TC_15_POST_CreateEvent_Public_with_MediaContributor_Negative" time="69.309" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.CreateEventApi_Av_9877" />
+      
+</testsuite>

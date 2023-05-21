@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API TestSuites...(failed)(failed)"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="62.500">
+  <properties />
+            <testcase name="TC_07_Delete_MultipleVideoCommentsAPI_api_check_with_AccountAdmins_Positive" time="28.646" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoComments">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;button type=&quot;button&quot; role=&quot;menuitem&quot; container=&quot;body&quot; aria-label=&quot;Comments (3)&quot; class=&quot;t1diw__sidebarButton theme-accent-btn dSSnE__sidebarButtonFixedColor&quot;&gt;...&lt;/button&gt; is not clickable at point (1896, 184). Other element would receive the click: &lt;li role=&quot;menuitem&quot; class=&quot;WKY6S__menuListItem&quot;&gt;...&lt;/li&gt;
+  (Session info: chrome=105.0.5195.127)
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;VA-WIN7QA-01&apos;, ip: &apos;10.10.6.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}), userDataDir=C:\Users\ARJUN~1.ABH\AppData\Local\Temp\scoped_dir24344_573837916}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64258}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=105.0.5195.127, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: e5a3f4ab3c119e27b9dee2af9ab98cf0"
+              >
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" role="menuitem" container="body" aria-label="Comments (3)" class="t1diw__sidebarButton theme-accent-btn dSSnE__sidebarButtonFixedColor">...</button> is not clickable at point (1896, 184). Other element would receive the click: <li role="menuitem" class="WKY6S__menuListItem">...</li>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'VA-WIN7QA-01', ip: '10.10.6.14', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}), userDataDir=C:\Users\ARJUN~1.ABH\AppData\Local\Temp\scoped_dir24344_573837916}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64258}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=105.0.5195.127, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: e5a3f4ab3c119e27b9dee2af9ab98cf0
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+  com.vbrick.avenger.funUtil.WebElements.click(WebElements.java:358)
+  com.vbrick.avenger.pageobjects.AvengerVideoCommentsPage.click_commentsLink(AvengerVideoCommentsPage.java:331)
+  com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoComments.TC_07_Delete_MultipleVideoCommentsAPI_api_check_with_AccountAdmins_Positive(DeleteVideoComments.java:473)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="TC_06_DELETE_DeleteVideosCommentsAPI_api_Deleting_a_Childcomment_from_a_video_AccountAdmins_Positive" time="33.854" classname="com.vbrick.avenger.videocommentapi_AV_9879_testcases.DeleteVideoComments" />
+      
+</testsuite>
